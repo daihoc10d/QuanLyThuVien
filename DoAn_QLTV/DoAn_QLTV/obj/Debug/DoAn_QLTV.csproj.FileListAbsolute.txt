@@ -1,0 +1,617 @@
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe.config
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.pdb
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.Properties.Resources.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.GenerateResource.cache
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.CoreCompileInputs.cache
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.exe
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.pdb
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.MainForm.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDocGia.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormMuonTra.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKDG.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKeDG.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKeTL.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKTL.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNhanVien.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNXB.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTacGia.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTaiLieu.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTheLoai.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDangNhap.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDoiMK.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormThemTK.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormHelp.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.AssemblyReference.cache
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe.config
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.pdb
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.AssemblyReference.cache
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDangNhap.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDocGia.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDoiMK.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormHelp.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormMuonTra.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormThemTK.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKDG.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKeDG.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKeTL.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKTL.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.MainForm.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNhanVien.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNXB.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.Properties.Resources.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTacGia.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTaiLieu.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTheLoai.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.GenerateResource.cache
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.CoreCompileInputs.cache
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.exe
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.pdb
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe.config
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.pdb
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\EnvDTE.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\stdole.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.xml
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDangNhap.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDocGia.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDoiMK.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormHelp.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormMuonTra.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormThemTK.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKDG.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKeDG.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKeTL.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKTL.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Docgia.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.MainForm.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNhanVien.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNXB.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.Properties.Resources.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTacGia.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTaiLieu.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTheLoai.resources
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.GenerateResource.cache
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\RdlCompile.cache
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\RdlCompile.compiled
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.CoreCompileInputs.cache
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.exe
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.pdb
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.AssemblyReference.cache
+C:\Users\Phung Dai Hoc\Desktop\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.CopyComplete
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe.config
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.pdb
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.SqlServer.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.Design.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\EnvDTE.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\stdole.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.MSXML.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.xml
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.SqlServer.xml
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDangNhap.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDocGia.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDoiMK.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormHelp.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormMuonTra.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormThemTK.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKDG.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKeDG.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKeTL.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKTL.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Docgia.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Muontra.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Nhanvien.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.MainForm.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNhanVien.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNXB.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.Properties.Resources.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTacGia.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTaiLieu.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTheLoai.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.GenerateResource.cache
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\RdlCompile.cache
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\RdlCompile.compiled
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.CoreCompileInputs.cache
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.exe
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.pdb
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_NXB.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tacgia.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieu.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Theloai.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.AssemblyReference.cache
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.SqlServer.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\EnvDTE.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\stdole.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.MSXML.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.xml
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.SqlServer.xml
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Docgia.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Muontra.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Nhanvien.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_NXB.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tacgia.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieu.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Theloai.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\RdlCompile.cache
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\RdlCompile.compiled
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieudangmuon.resources
+D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieutrehan.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe.config
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.pdb
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\EnvDTE.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\stdole.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.xml
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.AssemblyReference.cache
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDangNhap.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDocGia.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDoiMK.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormHelp.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormMuonTra.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormThemTK.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKDG.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKeDG.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKeTL.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKTL.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Docgia.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Muontra.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Nhanvien.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_NXB.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tacgia.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieu.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieudangmuon.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieutrehan.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Theloai.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.MainForm.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNhanVien.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNXB.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.Properties.Resources.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTacGia.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTaiLieu.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTheLoai.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.GenerateResource.cache
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\RdlCompile.cache
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\RdlCompile.compiled
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.CoreCompileInputs.cache
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.CopyComplete
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.exe
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.pdb
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe.config
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.pdb
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.SqlServer.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.Design.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\EnvDTE.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\stdole.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.MSXML.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.xml
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.SqlServer.xml
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.AssemblyReference.cache
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDangNhap.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDocGia.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDoiMK.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormHelp.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormMuonTra.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormThemTK.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKDG.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKeDG.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKeTL.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKTL.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Docgia.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Muontra.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Nhanvien.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_NXB.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tacgia.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieu.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieudangmuon.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieutrehan.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Theloai.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.MainForm.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNhanVien.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNXB.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.Properties.Resources.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTacGia.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTaiLieu.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTheLoai.resources
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.GenerateResource.cache
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\RdlCompile.cache
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\RdlCompile.compiled
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.CoreCompileInputs.cache
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.exe
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.pdb
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieudangmuon.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieutrehan.resources
+F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Docgiatrehan.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Docgiatrehan.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\GUI\Report_Docgiatrehan.rdlc
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\GUI\Report_Tailieutrehan.rdlc
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\GUI\Report_Docgiatrehan.rdlc
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\GUI\Report_Tailieutrehan.rdlc
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Docgiatrehan.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\GUI\Report_Docgiatrehan.rdlc
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\GUI\Report_Tailieutrehan.rdlc
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe.config
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.pdb
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.SqlServer.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.Design.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\EnvDTE.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\stdole.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\Microsoft.MSXML.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.xml
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\EntityFramework.SqlServer.xml
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.AssemblyReference.cache
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDangNhap.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDocGia.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDoiMK.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormHelp.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormMuonTra.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormThemTK.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKDG.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKeDG.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKeTL.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKTL.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Docgiatrehan.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Docgia.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Muontra.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Nhanvien.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_NXB.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tacgia.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieu.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieudangmuon.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieutrehan.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Theloai.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.MainForm.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNhanVien.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNXB.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.Properties.Resources.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTacGia.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTaiLieu.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTheLoai.resources
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.GenerateResource.cache
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\RdlCompile.cache
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\RdlCompile.compiled
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.CoreCompileInputs.cache
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.exe
+F:\ĐỒ ÁN LÀM LẠI\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.pdb
