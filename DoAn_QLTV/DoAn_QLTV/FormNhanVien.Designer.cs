@@ -56,12 +56,16 @@ namespace DoAn_QLTV
             this.btnX = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.cbChucVu = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVien)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.cbChucVu);
+            this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.btnLoad);
             this.groupBox1.Controls.Add(this.l);
@@ -84,14 +88,14 @@ namespace DoAn_QLTV
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(12, 48);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(310, 320);
+            this.groupBox1.Size = new System.Drawing.Size(310, 353);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cập nhật thông tin";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(97, 275);
+            this.button1.Location = new System.Drawing.Point(97, 305);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(77, 35);
@@ -102,7 +106,7 @@ namespace DoAn_QLTV
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(180, 207);
+            this.btnLoad.Location = new System.Drawing.Point(180, 237);
             this.btnLoad.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(75, 30);
@@ -114,7 +118,7 @@ namespace DoAn_QLTV
             // l
             // 
             this.l.AutoSize = true;
-            this.l.Location = new System.Drawing.Point(177, 294);
+            this.l.Location = new System.Drawing.Point(177, 341);
             this.l.Name = "l";
             this.l.Size = new System.Drawing.Size(0, 16);
             this.l.TabIndex = 45;
@@ -143,7 +147,7 @@ namespace DoAn_QLTV
             // btnLuu
             // 
             this.btnLuu.Enabled = false;
-            this.btnLuu.Location = new System.Drawing.Point(18, 242);
+            this.btnLuu.Location = new System.Drawing.Point(18, 272);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(75, 30);
             this.btnLuu.TabIndex = 10;
@@ -153,7 +157,7 @@ namespace DoAn_QLTV
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(180, 242);
+            this.btnThoat.Location = new System.Drawing.Point(180, 272);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(75, 30);
             this.btnThoat.TabIndex = 12;
@@ -163,7 +167,7 @@ namespace DoAn_QLTV
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(99, 242);
+            this.btnXoa.Location = new System.Drawing.Point(99, 272);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(75, 30);
             this.btnXoa.TabIndex = 11;
@@ -173,7 +177,7 @@ namespace DoAn_QLTV
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(99, 207);
+            this.btnSua.Location = new System.Drawing.Point(99, 237);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(75, 30);
             this.btnSua.TabIndex = 8;
@@ -183,7 +187,7 @@ namespace DoAn_QLTV
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(20, 207);
+            this.btnThem.Location = new System.Drawing.Point(20, 237);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(75, 30);
             this.btnThem.TabIndex = 7;
@@ -281,7 +285,7 @@ namespace DoAn_QLTV
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(12, 371);
+            this.label8.Location = new System.Drawing.Point(18, 414);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(130, 16);
             this.label8.TabIndex = 44;
@@ -328,11 +332,32 @@ namespace DoAn_QLTV
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(148, 371);
+            this.label9.Location = new System.Drawing.Point(154, 414);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(113, 16);
             this.label9.TabIndex = 48;
             this.label9.Text = "Tổng số nhân viên";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label10.Location = new System.Drawing.Point(6, 204);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(73, 20);
+            this.label10.TabIndex = 50;
+            this.label10.Text = "Chức vụ";
+            // 
+            // cbChucVu
+            // 
+            this.cbChucVu.FormattingEnabled = true;
+            this.cbChucVu.Items.AddRange(new object[] {
+            "Nam",
+            "Nữ"});
+            this.cbChucVu.Location = new System.Drawing.Point(127, 200);
+            this.cbChucVu.Name = "cbChucVu";
+            this.cbChucVu.Size = new System.Drawing.Size(174, 24);
+            this.cbChucVu.TabIndex = 51;
             // 
             // FormNhanVien
             // 
@@ -388,5 +413,7 @@ namespace DoAn_QLTV
         private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.ComboBox cbChucVu;
     }
 }

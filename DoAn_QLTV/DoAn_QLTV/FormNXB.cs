@@ -13,6 +13,7 @@ namespace DoAn_QLTV
 {
     public partial class FormNXB : Form
     {
+
         public FormNXB()
         {
             InitializeComponent();

@@ -90,9 +90,9 @@ namespace DoAn_QLTV
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 123);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 16);
+            this.label3.Size = new System.Drawing.Size(88, 16);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Mã nhân viên";
+            this.label3.Text = "Mã nhân viên ";
             // 
             // txtMKagain
             // 
@@ -113,7 +113,7 @@ namespace DoAn_QLTV
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(330, 44);
+            this.btnThem.Location = new System.Drawing.Point(301, 44);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(75, 30);
             this.btnThem.TabIndex = 5;
@@ -123,7 +123,7 @@ namespace DoAn_QLTV
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(330, 94);
+            this.btnThoat.Location = new System.Drawing.Point(301, 94);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(75, 30);
             this.btnThoat.TabIndex = 6;
@@ -156,7 +156,7 @@ namespace DoAn_QLTV
             // cbChucVu
             // 
             this.cbChucVu.FormattingEnabled = true;
-            this.cbChucVu.Location = new System.Drawing.Point(128, 153);
+            this.cbChucVu.Location = new System.Drawing.Point(128, 151);
             this.cbChucVu.Name = "cbChucVu";
             this.cbChucVu.Size = new System.Drawing.Size(156, 24);
             this.cbChucVu.TabIndex = 56;

@@ -15,13 +15,17 @@ namespace DoAn_QLTV
     {
         string TenAccount = "", MKAccount = "", MaNV = "", MaCV = "";
 
-        public FormNhanVien( string TenAccount, string MKAccount, string MaNV, string MaCV)
+
+        public FormNhanVien(string TenAccount, string MKAccount, string MaNV, string MaCV)
         {
             InitializeComponent();
             this.TenAccount = TenAccount;
             this.MKAccount = MKAccount;
             this.MaNV = MaNV;
             this.MaCV = MaCV;
+
+
+
         }
 
         Themsuaxoa t = new Themsuaxoa();
@@ -29,6 +33,16 @@ namespace DoAn_QLTV
         private void FormNhanVien_Load(object sender, EventArgs e)
         {
             loaddata();
+            loadcombox();
+
+        }
+        private void loadcombox()
+        {
+            DataTable dt = t.docdulieu("select * from ChucVu");
+
+            cbChucVu.DataSource = dt;
+            cbChucVu.DisplayMember = "TenCV";
+            cbChucVu.ValueMember = "MaCV";
         }
         private void loaddata()
         {
@@ -45,6 +59,8 @@ namespace DoAn_QLTV
             dgvNhanVien.Columns[3].HeaderText = "Giới tính";
             dgvNhanVien.Columns[4].HeaderText = "Địa chỉ";
             dgvNhanVien.Columns[5].HeaderText = "Điện thoại";
+            dgvNhanVien.Columns[6].HeaderText = "Chức vụ";
+
 
             dgvNhanVien.AutoResizeColumns();
             dgvNhanVien.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
@@ -62,6 +78,7 @@ namespace DoAn_QLTV
             txtdienthoai.Text = "";
             txtdiachi.Text = "";
             comgioitinh.Text = "Nam";
+            cbChucVu.Text = "";
 
             txttennhanvien.Enabled = false;
             txtmanhanvien.Enabled = false;
@@ -69,6 +86,7 @@ namespace DoAn_QLTV
             txtdiachi.Enabled = false;
             comgioitinh.Enabled = false;
             ngaysinh.Enabled = false;
+            cbChucVu.Enabled = false;
 
         }
         private void Enable()
@@ -79,6 +97,8 @@ namespace DoAn_QLTV
             txtdiachi.Enabled = true;
             comgioitinh.Enabled = true;
             ngaysinh.Enabled = true;
+            cbChucVu.Enabled = true;
+
         }
         private void btnbtnThem_Click(object sender, EventArgs e)
         {
@@ -148,12 +168,12 @@ namespace DoAn_QLTV
             string ngayhh = ngaysinh.Value.ToString("MM/dd/yyyy");
             if (dgvNhanVien.Enabled == true)
             {
-                if (txtmanhanvien.Text == "" || txttennhanvien.Text == "" || txtdiachi.Text == "" || txtdienthoai.Text == "")
+                if (txtmanhanvien.Text == "" || txttennhanvien.Text == "" || txtdiachi.Text == "" || txtdienthoai.Text == ""|| cbChucVu.Text == "")
                 {
                     MessageBox.Show("Vui lòng không bỏ trống thông tin !!");
 
                 }
-                else if (t.thucthidulieu("UPDATE  NhanVien SET TenNV=N'" + txttennhanvien.Text + "', NgaySinh='" + ngayhh + "',GioiTinh=N'" + comgioitinh.Text + "', DiaChi=N'" + txtdiachi.Text + "', SDT=N'" + txtdienthoai.Text + "' WHERE MaNV=N'" + txtmanhanvien.Text + "'") == true)
+                else if (t.thucthidulieu("UPDATE  NhanVien SET TenNV=N'" + txttennhanvien.Text + "', NgaySinh='" + ngayhh + "',GioiTinh=N'" + comgioitinh.Text + "', DiaChi=N'" + txtdiachi.Text + "', SDT=N'" + txtdienthoai.Text + "',MaCV=N'"+cbChucVu.SelectedValue.ToString()+"', WHERE MaNV=N'" + txtmanhanvien.Text + "'") == true)
                 {
 
                     MessageBox.Show("Cập nhật dữ liệu thành công");
@@ -162,11 +182,11 @@ namespace DoAn_QLTV
                 }
                 else MessageBox.Show("Không thể cập nhật dữ liệu");
             }
-            else if (txtmanhanvien.Text == "" || txttennhanvien.Text == "" || txtdiachi.Text == "" || txtdienthoai.Text == "")
+            else if (txtmanhanvien.Text == "" || txttennhanvien.Text == "" || txtdiachi.Text == "" || txtdienthoai.Text == "" || cbChucVu.Text == "")
             {
                 MessageBox.Show("Vui lòng điền đầy đủ thông tin");
             }
-            else if (t.thucthidulieu("INSERT INTO NhanVien VALUES ('" + txtmanhanvien.Text + "',N'" + txttennhanvien.Text + "','" + ngayhh + "',N'" + comgioitinh.Text + "',N'" + txtdiachi.Text + "',N'" + txtdienthoai.Text + "')") == true)
+            else if (t.thucthidulieu("INSERT INTO NhanVien VALUES ('" + txtmanhanvien.Text + "',N'" + txttennhanvien.Text + "','" + ngayhh + "',N'" + comgioitinh.Text + "',N'" + txtdiachi.Text + "',N'" + txtdienthoai.Text + "',N'" + cbChucVu.SelectedValue.ToString() + "')") == true)
             {
 
                 MessageBox.Show("Thêm thành công");
@@ -229,6 +249,11 @@ namespace DoAn_QLTV
             this.Close();
         }
 
+        private void txtChucvu_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void dgvNhanVien_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             txtmanhanvien.Text = dgvNhanVien.CurrentRow.Cells[0].Value.ToString();
@@ -237,6 +262,8 @@ namespace DoAn_QLTV
             comgioitinh.Text = dgvNhanVien.CurrentRow.Cells[3].Value.ToString();
             txtdiachi.Text = dgvNhanVien.CurrentRow.Cells[4].Value.ToString();
             txtdienthoai.Text = dgvNhanVien.CurrentRow.Cells[5].Value.ToString();
+            cbChucVu.Text = dgvNhanVien.CurrentRow.Cells[6].Value.ToString();
+
         }
 
         private void btnX_Click(object sender, EventArgs e)

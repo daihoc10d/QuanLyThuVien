@@ -21,7 +21,15 @@ namespace DoAn_QLTV
 
         private void FormThemTK_Load(object sender, EventArgs e)
         {
-            loadcombo();
+            loadcombox();
+        }
+        private void loadcombox()
+        {
+            DataTable dt = t.docdulieu("select * from ChucVu");
+
+            cbChucVu.DataSource = dt;
+            cbChucVu.DisplayMember = "TenCV";
+            cbChucVu.ValueMember = "MaCV";
         }
 
         private void btnThem_Click(object sender, EventArgs e)
@@ -35,7 +43,7 @@ namespace DoAn_QLTV
             {
                 MessageBox.Show("Mật khẩu không trùng khớp nhau !!", "Thông báo", MessageBoxButtons.OK);
             }
-            else if (t.thucthidulieu("INSERT INTO Account VALUES (N'" + txtTenTK.Text + "','" + txtMK.Text + "','" + txtMaNV.Text + "')") == true)
+            else if (t.thucthidulieu("INSERT INTO Account VALUES (N'" + txtTenTK.Text + "','" + txtMK.Text + "','" + txtMaNV.Text + "','" + cbChucVu.SelectedValue.ToString() + "')") == true)
             {
                 MessageBox.Show("Thêm thành công !!", "Thông báo", MessageBoxButtons.OK);
                 setNull();
@@ -64,14 +72,7 @@ namespace DoAn_QLTV
         {
             this.Close();
         }
-        private void loadcombo()
-        {
-            DataTable dt = t.docdulieu("select * from ChucVu");
 
-            cbChucVu.DataSource = dt;
-            cbChucVu.DisplayMember = "TenCV";
-            cbChucVu.ValueMember = "MaCV";
-        }
 
     }
 }

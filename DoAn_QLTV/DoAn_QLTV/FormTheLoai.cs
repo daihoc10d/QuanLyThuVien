@@ -13,6 +13,7 @@ namespace DoAn_QLTV
 {
     public partial class FormTheLoai : Form
     {
+
         public FormTheLoai()
         {
             InitializeComponent();

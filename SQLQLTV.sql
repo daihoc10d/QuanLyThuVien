@@ -33,6 +33,12 @@ create table NhaXuatBan
 	SDT varchar(10)
 )
 go
+create table Chucvu
+(
+	MaCV varchar(10) primary key,
+	TenCV nvarchar(50),
+)
+go
 create table NhanVien
 (
 	MaNV varchar(10) primary key,
@@ -40,15 +46,18 @@ create table NhanVien
 	NgaySinh datetime,
 	GioiTinh nvarchar(5),
 	DiaChi nvarchar(100),
-	SDT varchar(10)
+	SDT varchar(10),
+	MaCV varchar(10) NOT NULL FOREIGN KEY REFERENCES dbo.Chucvu(MaCV)
 
 )
+go
 create table PhieuMuon
 (
 	MaPM varchar(10) primary key,
 	MaDG varchar(10) NOT NULL FOREIGN KEY REFERENCES dbo.DocGia(MaDG),
 	MaNV varchar(10) NOT NULL FOREIGN KEY REFERENCES dbo.NhanVien(MaNV),
 )
+go
 create table TaiLieu
 (
 	MaTaiLieu varchar(10) primary key,
@@ -67,19 +76,18 @@ create table CTPhieuMuon
 	NgayTra datetime,
 	TinhTrang nvarchar(50)
 )
-create table Chucvu
-(
-	MaCV varchar(10) primary key,
-	TenCV nvarchar(50),
-)
 go
+
 create table Account
 (
 	TenAccount varchar(20) primary key,
-	MKAccount varchar(10), 
+	MKAccount varchar(10) NOT NULL, 
 	MaNV varchar(10) NOT NULL FOREIGN KEY REFERENCES dbo.NhanVien(MaNV),
 	MaCV varchar(10) NOT NULL FOREIGN KEY REFERENCES dbo.Chucvu(MaCV)
+
+	--MaDG varchar(10) NOT NULL FOREIGN KEY REFERENCES dbo.DocGia(MaDG),
 )
+go
 drop table ChucVu
 drop table Account
 drop table TheLoai
@@ -118,20 +126,25 @@ insert into NhaXuatBan values ('KD',N'Kim Đồng','Q3','111')
 insert into NhaXuatBan values ('ND',N'Nhân Dân','Q6','222')
 insert into NhaXuatBan values ('TT',N'Tuổi Trẻ','Q1','333')
 insert into NhaXuatBan values ('SG',N'Sài Gòn','Q1','444')
----MaNV, TenNV,NgaySinh, GioiTinh, DiaChi, SDT
-
-insert into NhanVien values ('NV01',N'Phùng Đại Học	','12/13/2021',N'Nam',N'Q1','0123456789')
-insert into NhanVien values ('NV02',N'Trịnh Dư Đạt','11/3/2021',N'Nam',N'Q10','4444444')
-insert into NhanVien values ('NV03',N'Nguyễn Văn Thiệt','5/6/2021',N'Nam',N'Q11','7777777')
-insert into NhanVien values ('NV04',N'Nguyễn Văn Quý','5/6/2021',N'Nam',N'Q11','7777777')
-insert into NhanVien values ('NV05',N'Phùng Mạc Đề	','12/13/2021',N'Nữ',N'Q8','0123456789')
-insert into NhanVien values ('NV06',N'Trịnh Công Sơn','11/3/2021',N'Nam',N'Q9','4444444')
-insert into NhanVien values ('NV07',N'Nguyễn Thị Hoa','5/6/2021',N'Nữ',N'Q19','7777777')
 
 --MaCV TenCV
 insert into Chucvu values ('AD',N'Admin')
 insert into Chucvu values ('NV',N'Nhân viên')
 insert into Chucvu values ('QL',N'Quản lý')
+
+
+---MaNV, TenNV,NgaySinh, GioiTinh, DiaChi, SDT
+
+insert into NhanVien values ('NV01',N'Phùng Đại Học	','12/13/2021',N'Nam',N'Q1','0123456789','AD')
+insert into NhanVien values ('NV02',N'Trịnh Dư Đạt','11/3/2021',N'Nam',N'Q10','4444444','QL')
+insert into NhanVien values ('NV03',N'Nguyễn Văn Thiệt','5/6/2021',N'Nam',N'Q11','7777777','NV')
+insert into NhanVien values ('NV04',N'Nguyễn Văn Quý','5/6/2021',N'Nam',N'Q11','7777777','NV')
+insert into NhanVien values ('NV05',N'Phùng Mạc Đề	','12/13/2021',N'Nữ',N'Q8','0123456789','NV')
+insert into NhanVien values ('NV06',N'Trịnh Công Sơn','11/3/2021',N'Nam',N'Q9','4444444','QL')
+insert into NhanVien values ('NV07',N'Nguyễn Thị Hoa','5/6/2021',N'Nữ',N'Q19','7777777','NV')
+
+
+
 
 --TenAccount MKAccount MaNV
 insert into Account values ('phunghoc', '050701', 'NV01','AD')
@@ -170,6 +183,6 @@ insert into CTPhieuMuon values('PM3','TL5','08/26/2021','09/04/2021',N'TỐT')
 insert into CTPhieuMuon values('PM4','TL1','09/02/2021','09/10/2021',N'MỚI')
 insert into CTPhieuMuon values('PM5','TL2','02/15/2021','04/04/2021',N'TỐT')
 
-
+select NhanVien.MaCV from Chucvu, Account, NhanVien where TenAccount='phunghoc'and Account.MaNV = NhanVien.MaNV and Chucvu.MaCV = Nhanvien.MaCV
 
 =========================================

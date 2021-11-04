@@ -21,7 +21,7 @@ namespace DoAn_QLTV
         //}
 
         Themsuaxoa t = new Themsuaxoa();
-        public MainForm(string name, string TenAccount, string MKAccount, string MaNV, string MaCV)
+        public MainForm(string name, string TenAccount, string MKAccount, string MaNV,string MaCV)
         {
             InitializeComponent();
             customizeDesign();
@@ -33,6 +33,7 @@ namespace DoAn_QLTV
             this.MKAccount = MKAccount;
             this.MaNV = MaNV;
             this.MaCV = MaCV;
+
         }
         private void MainForm_Load(object sender, EventArgs e)
         {
@@ -92,9 +93,8 @@ namespace DoAn_QLTV
 
         private void btnTaoTK_Click(object sender, EventArgs e)
         {
-            DataTable dt = t.docdulieu("select * from Account ");
-
-            if (MaCV == "AD"|| MaCV == "QL")
+            //DataTable dt = t.docdulieu("select NhanVien.MaCV from Chucvu, Account, NhanVien where TenAccount=N'" + labName.Text + "'and Account.MaNV = NhanVien.MaNV and Chucvu.MaCV = Nhanvien.MaCV");
+            if (MaCV == "AD")
             {
                 openChildForm(new FormThemTK());
             }
@@ -143,7 +143,7 @@ namespace DoAn_QLTV
 
         private void btnNhanVien_Click(object sender, EventArgs e)
         {
-            DataTable dt = t.docdulieu("select * from Account where TenAccount=N'" + labName.Text + "'");
+            DataTable dt = t.docdulieu("select * from Account where TenAccount=N'" + labName.Text + "' ");
 
             openChildForm(new FormNhanVien(dt.Rows[0][0].ToString(), dt.Rows[0][1].ToString(), dt.Rows[0][2].ToString(), dt.Rows[0][3].ToString()));
             hideSubMenu();
