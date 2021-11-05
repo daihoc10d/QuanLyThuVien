@@ -46,7 +46,7 @@ namespace DoAn_QLTV
         }
         private void loaddata()
         {
-            DataTable dt = t.docdulieu("select * from NhanVien");
+            DataTable dt = t.docdulieu("select MaNV,TenNV,NgaySinh,GioiTinh,DiaChi,SDT,TenCV from NhanVien,Chucvu where Nhanvien.MaCV=Chucvu.MaCV");
             label9.Text = dt.Rows.Count.ToString();
 
             if (dt != null)
