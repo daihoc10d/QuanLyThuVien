@@ -17,10 +17,10 @@ namespace DoAn_QLTV.GUI
 {
     public partial class Report_Tacgia : Form
     {
-        ModelQLTV dbcontext;
+        Model1 dbcontext;
         public Report_Tacgia()
         {
-            dbcontext = new ModelQLTV();
+            dbcontext = new Model1();
             InitializeComponent();
         }
 

@@ -18,11 +18,11 @@ namespace DoAn_QLTV.GUI
 {
     public partial class Report_Theloai : Form
     {
-        ModelQLTV dbcontext;
+        Model1 dbcontext;
 
         public Report_Theloai()
         {
-            dbcontext = new ModelQLTV();
+            dbcontext = new Model1();
 
             InitializeComponent();
         }

@@ -60,6 +60,7 @@
                               <Value>Mã tác giả</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -79,6 +80,7 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
+                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell>
@@ -93,6 +95,7 @@
                               <Value>Tên tác giả</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -112,6 +115,7 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
+                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
               </TablixCells>

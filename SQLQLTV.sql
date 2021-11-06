@@ -58,6 +58,8 @@ create table PhieuMuon
 	MaNV varchar(10) NOT NULL FOREIGN KEY REFERENCES dbo.NhanVien(MaNV),
 )
 go
+
+
 create table TaiLieu
 (
 	MaTaiLieu varchar(10) primary key,
@@ -68,6 +70,7 @@ create table TaiLieu
 	MaNXB varchar(10) NOT NULL FOREIGN KEY REFERENCES dbo.NhaXuatBan(MaNXB),
 )
 go
+select MaPM,TenTaiLieu,NgayMuon,NgayTra,TinhTrang from CTPhieuMuon,TaiLieu where CTPhieuMuon.MaTaiLieu=TaiLieu.MaTaiLieu
 create table CTPhieuMuon
 (
 	MaPM varchar(10) NOT NULL FOREIGN KEY REFERENCES dbo.PhieuMuon(MaPM),
@@ -105,8 +108,13 @@ where A.MaTG = B.MaTG
 
 
 select * from TaiLieu where TenTaiLieu like '%P%'
+--form tai lieu
+select MaTaiLieu,TenTaiLieu,NamXB,TenTG,TenTheLoai,TenNXB from TaiLieu,TacGia,TheLoai,NhaXuatBan where TaiLieu.MaTG=TacGia.MaTG and TaiLieu.MaTheLoai=Theloai.MaTheLoai and TaiLieu.MaNXB=NhaXuatBan.MaNXB;
+--form nhan vien
+select MaNV,TenNV,NgaySinh,GioiTinh,DiaChi,SDT,TenCV from NhanVien,Chucvu where Nhanvien.MaCV=Chucvu.MaCV
+---form phieu muon
+select MaPM,TenDG,TenNV from PhieuMuon,DocGia,NhanVien where PhieuMuon.MaDG=DocGia.MaDG and PhieuMuon.MaNV=NhanVien.MaNV
 
-UPDATE NhanVien SET TenNV = N'Nguyễn Văn Quý' WHERE MaNV=NV04;
 
 ---MaTheLoai, TenTheLoai
 insert into TheLoai values ('DS',N'Đời sống')
@@ -155,7 +163,7 @@ insert into Account values ('duongquy', '123456', 'NV04','NV')
 ----MaDG    TenDG    NgaySinh    GioiTinh    Lop
 
 insert into DocGia values ('DG1',N'Phạm Ngọc Hải','5/5/2001','Nam','C1')
-insert into DocGia values ('DG2',N'Phạm Hải NGọc','6/7/2003','Nam','B5')
+insert into DocGia values ('DG2',N'Phạm Hải Ngọc','6/7/2003','Nam','B5')
 insert into DocGia values ('DG3',N'Phạm Minh Hoang','1/2/2001','Nam','A2')
 insert into DocGia values ('DG4',N'Nguyễn Thanh Hải','11/12/2012',N'Nữ','D3')
 insert into DocGia values ('DG5',N'Nguyễn Thị Lý','1/10/2010',N'Nữ','E1')
@@ -164,9 +172,14 @@ insert into DocGia values ('DG5',N'Nguyễn Thị Lý','1/10/2010',N'Nữ','E1
 
 insert into TaiLieu values ('TL1', N'Lập trình hướng đối tượng',2010, N'KB', N'LT', 'ND')
 insert into TaiLieu values ('TL2', N'Nhập môn lập trình',2011, N'GS', N'TL', 'TT')
-insert into TaiLieu values ('TL3', N'Kỹ Thuật Lập Trình',2001, N'KB', N'GT', 'SG')
+insert into TaiLieu values ('TL3', N'Chí Phèo',1996, N'NC', N'GT', 'KD')
 insert into TaiLieu values ('TL4', N'Thiết Kế Phần Mềm',2019, N'GS', N'LT', 'KD')
 insert into TaiLieu values ('TL5', N'Truyện Đô rê mon',2002, N'KB', N'GT', 'KD')
+insert into TaiLieu values ('TL6', N'Dế mèn phiêu lưu kí',2001, N'TH', N'GT', 'KD')
+insert into TaiLieu values ('TL7', N'Kỹ Thuật Lập Trình',2001, N'KB', N'GT', 'SG')
+
+
+
 
 ---	MaPM, MaDG, MaNV
 

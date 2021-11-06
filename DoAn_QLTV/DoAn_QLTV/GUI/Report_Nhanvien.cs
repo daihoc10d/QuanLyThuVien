@@ -17,17 +17,19 @@ namespace DoAn_QLTV.GUI
 {
     public partial class Report_Nhanvien : Form
     {
-        ModelQLTV dbcontext;
+        Model1 dbcontext;
+
         public Report_Nhanvien()
         {
-            dbcontext = new ModelQLTV();
+            dbcontext = new Model1();
+
             InitializeComponent();
         }
 
         private void Report_Nhanvien_Load(object sender, EventArgs e)
         {
             this.reportViewer1.LocalReport.ReportPath = "Report_Nhanvien.rdlc";
-            var reportDataSource = new ReportDataSource("DataSetNhanvien",
+            var reportDataSource = new ReportDataSource("DataSet_Nhanvien",
                 ConvertNhanvien(dbcontext.NhanViens.ToList())); //đúng tên dataset trong thiết kế 
             this.reportViewer1.LocalReport.DataSources.Clear();  //clear  
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource);
@@ -41,11 +43,12 @@ namespace DoAn_QLTV.GUI
             {
                 Class_rpNhanvien NV = new Class_rpNhanvien();
                 NV.MaNV = nhanViens[i].MaNV;
-                NV.TenNV = nhanViens[i].TenNV;
+                NV.Hoten = nhanViens[i].TenNV;
                 NV.Ngaysinh = (DateTime)nhanViens[i].NgaySinh;
                 NV.Gioitinh = nhanViens[i].GioiTinh;
                 NV.Diachi = nhanViens[i].DiaChi;
-                NV.SDT = nhanViens[i].SDT;
+                NV.Sdt = nhanViens[i].SDT;
+                NV.Chucvu = nhanViens[i].Chucvu.TenCV;
                 NVList.Add(NV);
 
             }

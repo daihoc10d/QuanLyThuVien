@@ -224,9 +224,10 @@
       <DependentUpon>FormNXB.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Account.cs" />
+    <Compile Include="Model\Chucvu.cs" />
     <Compile Include="Model\CTPhieuMuon.cs" />
     <Compile Include="Model\DocGia.cs" />
-    <Compile Include="Model\ModelQLTV.cs" />
+    <Compile Include="Model\Model1.cs" />
     <Compile Include="Model\NhanVien.cs" />
     <Compile Include="Model\NhaXuatBan.cs" />
     <Compile Include="Model\PhieuMuon.cs" />
@@ -291,6 +292,10 @@
     <EmbeddedResource Include="GUI\Report_Docgiatrehan.resx">
       <DependentUpon>Report_Docgiatrehan.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Report_Nhanvien.rdlc" />
+    <EmbeddedResource Include="GUI\Report_Nhanvien.resx">
+      <DependentUpon>Report_Nhanvien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Report_Tacgia.rdlc" />
     <EmbeddedResource Include="GUI\Report_Docgia.rdlc" />
     <EmbeddedResource Include="GUI\Report_Docgia.resx">
@@ -299,10 +304,6 @@
     <EmbeddedResource Include="GUI\Report_Muontra.rdlc" />
     <EmbeddedResource Include="GUI\Report_Muontra.resx">
       <DependentUpon>Report_Muontra.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Report_Nhanvien.rdlc" />
-    <EmbeddedResource Include="GUI\Report_Nhanvien.resx">
-      <DependentUpon>Report_Nhanvien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Report_NXB.rdlc" />
     <EmbeddedResource Include="GUI\Report_NXB.resx">

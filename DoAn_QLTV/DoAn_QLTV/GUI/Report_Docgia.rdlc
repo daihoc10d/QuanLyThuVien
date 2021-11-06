@@ -6,10 +6,10 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1.17083in</Width>
+              <Width>0.84791in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.17083in</Width>
+              <Width>1.73126in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1.17083in</Width>
@@ -34,9 +34,10 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Mã Độc giả</Value>
+                              <Value>Mã ĐG</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -67,9 +68,10 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Tên Độc giả</Value>
+                              <Value>Tên độc giả</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -103,6 +105,7 @@
                               <Value>Ngày sinh</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -122,7 +125,6 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell>
@@ -137,6 +139,7 @@
                               <Value>Giới tính</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -170,6 +173,7 @@
                               <Value>Lớp</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -373,7 +377,7 @@
         <Top>1.04042in</Top>
         <Left>0.41125in</Left>
         <Height>0.57292in</Height>
-        <Width>5.85415in</Width>
+        <Width>6.09166in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -432,7 +436,7 @@
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
-      <rd:DataSourceID>d4632ecd-f87d-4c5d-b2a1-90428101cca2</rd:DataSourceID>
+      <rd:DataSourceID>f2489c49-190c-41f7-bc4d-3c0817fe07e5</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>

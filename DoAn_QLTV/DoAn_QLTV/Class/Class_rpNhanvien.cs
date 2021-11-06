@@ -15,12 +15,12 @@ namespace DoAn_QLTV.Class
             get { return maNV; }
             set { maNV = value; }
         }
-        private string tenNV;
+        private string hoten;
 
-        public string TenNV
+        public string Hoten
         {
-            get { return tenNV; }
-            set { tenNV = value; }
+            get { return hoten; }
+            set { hoten = value; }
         }
         private DateTime ngaysinh;
 
@@ -43,12 +43,21 @@ namespace DoAn_QLTV.Class
             get { return diachi; }
             set { diachi = value; }
         }
-        private string sDT;
+        private string sdt;
 
-        public string SDT
+        public string Sdt
         {
-            get { return sDT; }
-            set { sDT = value; }
+            get { return sdt; }
+            set { sdt = value; }
         }
+        private string chucvu;
+
+        public string Chucvu
+        {
+            get { return chucvu; }
+            set { chucvu = value; }
+        }
+
+
     }
 }

@@ -15,17 +15,17 @@ namespace DoAn_QLTV.GUI
 {
     public partial class Report_Muontra : Form
     {
-        ModelQLTV dbcontext;
+        Model1 dbcontext;
         public Report_Muontra()
         {
-            dbcontext = new ModelQLTV();
+            dbcontext = new Model1();
             InitializeComponent();
         }
 
         private void Report_Muontra_Load(object sender, EventArgs e)
         {
             this.reportViewer1.LocalReport.ReportPath = "Report_Muontra.rdlc";
-            var reportDataSource = new ReportDataSource("DataSet_Muontra",
+            var reportDataSource = new ReportDataSource("DataSet1",
                 ConvertNhanvien(dbcontext.CTPhieuMuons.ToList())); //đúng tên dataset trong thiết kế 
             this.reportViewer1.LocalReport.DataSources.Clear();  //clear  
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource);

@@ -13,12 +13,19 @@ namespace DoAn_QLTV.Model
         [StringLength(20)]
         public string TenAccount { get; set; }
 
+        [Required]
         [StringLength(10)]
         public string MKAccount { get; set; }
 
         [Required]
         [StringLength(10)]
         public string MaNV { get; set; }
+
+        [Required]
+        [StringLength(10)]
+        public string MaCV { get; set; }
+
+        public virtual Chucvu Chucvu { get; set; }
 
         public virtual NhanVien NhanVien { get; set; }
     }

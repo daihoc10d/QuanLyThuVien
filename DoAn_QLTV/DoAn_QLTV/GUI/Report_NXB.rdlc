@@ -47,10 +47,10 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1.54948in</Width>
+              <Width>0.95573in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.54948in</Width>
+              <Width>2.11198in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1.54948in</Width>
@@ -75,6 +75,7 @@
                               <Value>Mã NXB</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -108,6 +109,7 @@
                               <Value>Tên NXB</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -141,6 +143,7 @@
                               <Value>SDT</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -174,6 +177,7 @@
                               <Value>Địa chỉ</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -346,7 +350,7 @@
         <Top>0.78in</Top>
         <Left>0.155in</Left>
         <Height>0.66666in</Height>
-        <Width>6.19792in</Width>
+        <Width>6.16667in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>

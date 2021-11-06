@@ -47,18 +47,18 @@
               <Width>1.34028in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.35417in</Width>
+              <Width>1.125in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.38541in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.27604in</Height>
+              <Height>0.28646in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -135,7 +135,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Nhà xuất bản</Value>
+                              <Value>Năm xuất bản</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
                                 <Color>Blue</Color>
@@ -168,7 +168,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Năm xuất bản</Value>
+                              <Value>Tác giả</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
                                 <Color>Blue</Color>
@@ -234,7 +234,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Tác giả</Value>
+                              <Value>Nhà xuất bản</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
                                 <Color>Blue</Color>
@@ -325,21 +325,21 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="NXB">
+                    <Textbox Name="NamXB1">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!NXB.Value</Value>
+                              <Value>=Fields!NamXB.Value</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>NXB</rd:DefaultName>
+                      <rd:DefaultName>NamXB1</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -355,21 +355,21 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="NamXB">
+                    <Textbox Name="Tacgia1">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!NamXB.Value</Value>
+                              <Value>=Fields!Tacgia.Value</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>NamXB</rd:DefaultName>
+                      <rd:DefaultName>Tacgia1</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -415,21 +415,21 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Tacgia">
+                    <Textbox Name="NXB">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!Tacgia.Value</Value>
+                              <Value>=Fields!NXB.Value</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Tacgia</rd:DefaultName>
+                      <rd:DefaultName>NXB</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -470,8 +470,8 @@
         <DataSetName>DataSet_Tailieudangmuon</DataSetName>
         <Top>0.78694in</Top>
         <Left>0.46403in</Left>
-        <Height>0.55208in</Height>
-        <Width>6.97916in</Width>
+        <Height>0.5625in</Height>
+        <Width>7.13541in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>

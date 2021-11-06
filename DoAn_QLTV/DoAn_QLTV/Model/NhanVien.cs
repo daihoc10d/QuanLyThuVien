@@ -34,8 +34,14 @@ namespace DoAn_QLTV.Model
         [StringLength(10)]
         public string SDT { get; set; }
 
+        [Required]
+        [StringLength(10)]
+        public string MaCV { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Account> Accounts { get; set; }
+
+        public virtual Chucvu Chucvu { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PhieuMuon> PhieuMuons { get; set; }

@@ -6,23 +6,27 @@ namespace DoAn_QLTV.Model
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    [Table("TacGia")]
-    public partial class TacGia
+    [Table("Chucvu")]
+    public partial class Chucvu
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public TacGia()
+        public Chucvu()
         {
-            TaiLieux = new HashSet<TaiLieu>();
+            Accounts = new HashSet<Account>();
+            NhanViens = new HashSet<NhanVien>();
         }
 
         [Key]
         [StringLength(10)]
-        public string MaTG { get; set; }
+        public string MaCV { get; set; }
 
         [StringLength(50)]
-        public string TenTG { get; set; }
+        public string TenCV { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<TaiLieu> TaiLieux { get; set; }
+        public virtual ICollection<Account> Accounts { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<NhanVien> NhanViens { get; set; }
     }
 }

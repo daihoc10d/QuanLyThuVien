@@ -30,7 +30,7 @@ namespace DoAn_QLTV
         }
         private void loaddata()
         {
-            DataTable dt = t.docdulieu("select * from PhieuMuon");
+            DataTable dt = t.docdulieu("select MaPM,TenDG,TenNV from PhieuMuon,DocGia,NhanVien where PhieuMuon.MaDG=DocGia.MaDG and PhieuMuon.MaNV=NhanVien.MaNV");
             //l.Text = dt.Rows.Count.ToString();
             loadcombo();
             if (dt != null)
@@ -38,8 +38,8 @@ namespace DoAn_QLTV
                 dgvPM.DataSource = dt;
             }
             dgvPM.Columns[0].HeaderText = "Mã phiếu mượn";
-            dgvPM.Columns[1].HeaderText = "Mã độc giả";
-            dgvPM.Columns[2].HeaderText = "Mã nhân viên";
+            dgvPM.Columns[1].HeaderText = "Độc giả";
+            dgvPM.Columns[2].HeaderText = "Nhân viên lập";
             dgvPM.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
 
             dgvPM.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
@@ -101,7 +101,7 @@ namespace DoAn_QLTV
         }
         private void loaddata2()
         {
-            DataTable dt = t.docdulieu("select * from CTPhieuMuon");
+            DataTable dt = t.docdulieu("select MaPM,TenTaiLieu,NgayMuon,NgayTra,TinhTrang from CTPhieuMuon,TaiLieu where CTPhieuMuon.MaTaiLieu=TaiLieu.MaTaiLieu");
             l.Text = dt.Rows.Count.ToString();
             //l.Text = dt.Rows.Count.ToString();
             //loadcombo();
@@ -110,7 +110,7 @@ namespace DoAn_QLTV
                 dgvCTPM.DataSource = dt;
             }
             dgvCTPM.Columns[0].HeaderText = "Mã phiếu mượn";
-            dgvCTPM.Columns[1].HeaderText = "Mã sách";
+            dgvCTPM.Columns[1].HeaderText = "Tài liệu";
             dgvCTPM.Columns[2].HeaderText = "Ngày mượn";
             dgvCTPM.Columns[3].HeaderText = "Ngày trả";
             dgvCTPM.Columns[4].HeaderText = "Ghi chú";

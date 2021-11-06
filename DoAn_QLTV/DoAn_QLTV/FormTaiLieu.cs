@@ -25,7 +25,7 @@ namespace DoAn_QLTV
         }
         private void loaddata()
         {
-            DataTable dt = t.docdulieu("select * from TaiLieu");
+            DataTable dt = t.docdulieu("select MaTaiLieu,TenTaiLieu,NamXB,TenTG,TenTheLoai,TenNXB from TaiLieu,TacGia,TheLoai,NhaXuatBan where TaiLieu.MaTG=TacGia.MaTG and TaiLieu.MaTheLoai=Theloai.MaTheLoai and TaiLieu.MaNXB=NhaXuatBan.MaNXB;");
 
             if (dt != null)
             {
@@ -38,9 +38,9 @@ namespace DoAn_QLTV
 
             dgvTaiLieu.Columns[1].HeaderText = "Tên tài liệu";
             dgvTaiLieu.Columns[2].HeaderText = "Năm xuất bản";
-            dgvTaiLieu.Columns[3].HeaderText = "Mã tác giả";
-            dgvTaiLieu.Columns[4].HeaderText = "Mã thể loại";
-            dgvTaiLieu.Columns[5].HeaderText = "Mã nhà xuất bản";
+            dgvTaiLieu.Columns[3].HeaderText = "Tác giả";
+            dgvTaiLieu.Columns[4].HeaderText = "thể loại";
+            dgvTaiLieu.Columns[5].HeaderText = "Nhà xuất bản";
 
             dgvTaiLieu.AutoResizeColumns();
             dgvTaiLieu.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
@@ -245,7 +245,7 @@ namespace DoAn_QLTV
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Report_Tailieudangmuon form = new Report_Tailieudangmuon();
+            Report_Tailieu form = new Report_Tailieu();
             form.Show();
         }
     }

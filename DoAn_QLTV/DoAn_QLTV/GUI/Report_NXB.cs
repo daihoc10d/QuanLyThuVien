@@ -17,10 +17,10 @@ namespace DoAn_QLTV.GUI
 {
     public partial class Report_NXB : Form
     {
-        ModelQLTV dbcontext;
+        Model1 dbcontext;
         public Report_NXB()
         {
-            dbcontext = new ModelQLTV();
+            dbcontext = new Model1();
             InitializeComponent();
         }
 

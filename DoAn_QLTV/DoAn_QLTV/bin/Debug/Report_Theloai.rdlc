@@ -60,6 +60,7 @@
                               <Value>Mã thể loại</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -93,6 +94,7 @@
                               <Value>Tên thể loại</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>

@@ -682,7 +682,6 @@ D:\QuanLyThuVien\DoAn_QLTV\DoAn_QLTV\bin\Debug\pt\Microsoft.ReportViewer.WinForm
 D:\QuanLyThuVien\DoAn_QLTV\DoAn_QLTV\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
 D:\QuanLyThuVien\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 D:\QuanLyThuVien\DoAn_QLTV\DoAn_QLTV\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-D:\QuanLyThuVien\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.AssemblyReference.cache
 D:\QuanLyThuVien\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDangNhap.resources
 D:\QuanLyThuVien\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDocGia.resources
 D:\QuanLyThuVien\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDoiMK.resources
@@ -716,3 +715,4 @@ D:\QuanLyThuVien\DoAn_QLTV\DoAn_QLTV\obj\Debug\RdlCompile.compiled
 D:\QuanLyThuVien\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.CoreCompileInputs.cache
 D:\QuanLyThuVien\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.exe
 D:\QuanLyThuVien\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.pdb
+D:\QuanLyThuVien\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.AssemblyReference.cache

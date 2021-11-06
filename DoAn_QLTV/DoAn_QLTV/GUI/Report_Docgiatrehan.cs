@@ -17,11 +17,11 @@ namespace DoAn_QLTV.GUI
 {
     public partial class Report_Docgiatrehan : Form
     {
-        ModelQLTV dbcontext;
+        Model1 dbcontext;
 
         public Report_Docgiatrehan()
         {
-            dbcontext = new ModelQLTV();
+            dbcontext = new Model1();
 
             InitializeComponent();
         }

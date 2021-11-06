@@ -6,10 +6,10 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1.23542in</Width>
+              <Width>0.83959in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.25625in</Width>
+              <Width>1.6625in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1.07917in</Width>
@@ -34,9 +34,10 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Mã độc giả</Value>
+                              <Value>Mã ĐG</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -70,6 +71,7 @@
                               <Value>Tên độc giả</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -103,6 +105,7 @@
                               <Value>Ngày sinh</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -136,6 +139,7 @@
                               <Value>Giới tính</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -169,6 +173,7 @@
                               <Value>Lớp</Value>
                               <Style>
                                 <FontSize>15pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                                 <Color>Blue</Color>
                               </Style>
                             </TextRun>
@@ -372,7 +377,7 @@
         <Top>0.99875in</Top>
         <Left>0.43625in</Left>
         <Height>0.58333in</Height>
-        <Width>5.70833in</Width>
+        <Width>5.71876in</Width>
         <Style>
           <Border>
             <Style>None</Style>

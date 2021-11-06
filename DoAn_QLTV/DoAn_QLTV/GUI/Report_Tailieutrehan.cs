@@ -18,11 +18,11 @@ namespace DoAn_QLTV.GUI
 {
     public partial class Report_Tailieutrehan : Form
     {
-        ModelQLTV dbcontext;
+        Model1 dbcontext;
 
         public Report_Tailieutrehan()
         {
-            dbcontext = new ModelQLTV();
+            dbcontext = new Model1();
 
             InitializeComponent();
         }
@@ -51,8 +51,8 @@ namespace DoAn_QLTV.GUI
                     NV.Matailieu = item.MaTaiLieu;
                     NV.Tentailieu = item.TaiLieu.TenTaiLieu;
                     NV.NamXB = (int)item.TaiLieu.NamXB;
-                    NV.Theloai = item.TaiLieu.TheLoai.TenTheLoai;
                     NV.Tacgia = item.TaiLieu.TacGia.TenTG;
+                    NV.Theloai = item.TaiLieu.TheLoai.TenTheLoai;
                     NV.NXB = item.TaiLieu.NhaXuatBan.TenNXB;
                     TLList.Add(NV);
                 }
