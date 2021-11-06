@@ -102,7 +102,7 @@ namespace DoAn_QLTV
             // panelSideMenu
             // 
             this.panelSideMenu.AutoScroll = true;
-            this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
+            this.panelSideMenu.BackColor = System.Drawing.SystemColors.HotTrack;
             this.panelSideMenu.Controls.Add(this.btnTroGiup);
             this.panelSideMenu.Controls.Add(this.panelSubMenuTKe);
             this.panelSideMenu.Controls.Add(this.btnThongKe);
@@ -617,6 +617,7 @@ namespace DoAn_QLTV
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(202, 90);
             this.panelLogo.TabIndex = 0;
+            this.panelLogo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelLogo_Paint);
             // 
             // pictureBox5
             // 

@@ -103,8 +103,8 @@ namespace DoAn_QLTV
         {
             DataTable dt = t.docdulieu("select MaPM,TenTaiLieu,NgayMuon,NgayTra,TinhTrang from CTPhieuMuon,TaiLieu where CTPhieuMuon.MaTaiLieu=TaiLieu.MaTaiLieu");
             l.Text = dt.Rows.Count.ToString();
-            //l.Text = dt.Rows.Count.ToString();
-            //loadcombo();
+            l.Text = dt.Rows.Count.ToString();
+            loadcombo();
             if (dt != null)
             {
                 dgvCTPM.DataSource = dt;
@@ -128,7 +128,7 @@ namespace DoAn_QLTV
 
             commaphieumuon.Enabled = false;
             commasach.Enabled = false;
-            //ngaymuon.Enabled = false;
+            ngaymuon.Enabled = false;
             //ngaytra.Enabled = false;
             ghichu.Enabled = false;
 
@@ -399,7 +399,7 @@ namespace DoAn_QLTV
                     ngaytra.Focus();
 
                 }
-                else if (t.thucthidulieu("update  CTPhieuMuon set NgayTra=N'" + ngayhhh + "'where MaTaiLieu=N'" + commasach.Text + "'") == true)
+                else if (t.thucthidulieu("update CTPhieuMuon set NgayTra=N'" + ngayhhh + "'where MaTaiLieu=N'" + commasach.Text + "'") == true)
                 {
                     MessageBox.Show("Sửa ngày hẹn trả thành công");
                     loaddata2();

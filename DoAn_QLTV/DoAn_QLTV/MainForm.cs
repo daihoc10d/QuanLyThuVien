@@ -252,6 +252,11 @@ namespace DoAn_QLTV
 
         }
 
+        private void panelLogo_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void btnTroGiup_Click(object sender, EventArgs e)
         {
             //
