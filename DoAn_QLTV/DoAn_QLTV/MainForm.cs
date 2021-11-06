@@ -37,6 +37,8 @@ namespace DoAn_QLTV
         }
         private void MainForm_Load(object sender, EventArgs e)
         {
+            timer1.Start();
+            labTime.Text = DateTime.UtcNow.ToString();
         }
 
         private void customizeDesign()
@@ -255,6 +257,12 @@ namespace DoAn_QLTV
         private void panelLogo_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            labTime.Text = DateTime.UtcNow.ToString();
+            timer1.Start();
         }
 
         private void btnTroGiup_Click(object sender, EventArgs e)

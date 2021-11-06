@@ -29,6 +29,7 @@ namespace DoAn_QLTV
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.btnTroGiup = new System.Windows.Forms.Button();
@@ -78,6 +79,8 @@ namespace DoAn_QLTV
             this.label3 = new System.Windows.Forms.Label();
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.labTime = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelSideMenu.SuspendLayout();
             this.panelSubMenuTKe.SuspendLayout();
             this.panelSubMenuTK.SuspendLayout();
@@ -662,6 +665,7 @@ namespace DoAn_QLTV
             // panelBot
             // 
             this.panelBot.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panelBot.Controls.Add(this.labTime);
             this.panelBot.Controls.Add(this.pictureBox8);
             this.panelBot.Controls.Add(this.dgvNV);
             this.panelBot.Controls.Add(this.pictureBox4);
@@ -839,6 +843,22 @@ namespace DoAn_QLTV
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // labTime
+            // 
+            this.labTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.labTime.AutoSize = true;
+            this.labTime.ForeColor = System.Drawing.Color.White;
+            this.labTime.Location = new System.Drawing.Point(625, 14);
+            this.labTime.Name = "labTime";
+            this.labTime.Size = new System.Drawing.Size(54, 16);
+            this.labTime.TabIndex = 5;
+            this.labTime.Text = "labTime";
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -933,6 +953,8 @@ namespace DoAn_QLTV
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label labName;
         private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.Label labTime;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
