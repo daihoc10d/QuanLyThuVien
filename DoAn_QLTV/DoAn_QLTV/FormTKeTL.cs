@@ -24,6 +24,7 @@ namespace DoAn_QLTV
         {
             tuychon.Text = "Tất cả tài liệu";
             loaddata();
+            tongso.Text = dgvTKeTL.Rows.Count.ToString();
         }
         Themsuaxoa t = new Themsuaxoa();
         private void loaddata()
@@ -95,6 +96,8 @@ namespace DoAn_QLTV
             else if (tuychon.Text == "Tài liệu đang mượn")
                 loaddata1();
             else loaddata2();
+            tongso.Text = dgvTKeTL.Rows.Count.ToString();
+
         }
 
         //private void btnXuatExcel_Click(object sender, EventArgs e)
@@ -131,7 +134,7 @@ namespace DoAn_QLTV
             {
                 Report_Tailieutrehan form = new Report_Tailieutrehan();
                     form.Show();
-            }   
+            }
         }
         private void tuychon_SelectedIndexChanged(object sender, EventArgs e)
         {

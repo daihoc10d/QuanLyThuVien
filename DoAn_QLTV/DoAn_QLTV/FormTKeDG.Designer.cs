@@ -32,12 +32,14 @@ namespace DoAn_QLTV
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTKeDG));
             this.dgvTKeDG = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.tuychon = new System.Windows.Forms.ComboBox();
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnThongKe = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnX = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tongso = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTKeDG)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -50,10 +52,10 @@ namespace DoAn_QLTV
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvTKeDG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTKeDG.Location = new System.Drawing.Point(12, 150);
+            this.dgvTKeDG.Location = new System.Drawing.Point(12, 166);
             this.dgvTKeDG.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvTKeDG.Name = "dgvTKeDG";
-            this.dgvTKeDG.Size = new System.Drawing.Size(775, 303);
+            this.dgvTKeDG.Size = new System.Drawing.Size(775, 287);
             this.dgvTKeDG.TabIndex = 42;
             // 
             // groupBox1
@@ -70,6 +72,17 @@ namespace DoAn_QLTV
             this.groupBox1.TabIndex = 41;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tùy chọn thống kê";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(621, 25);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(86, 32);
+            this.button1.TabIndex = 55;
+            this.button1.Text = "Report";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tuychon
             // 
@@ -130,16 +143,24 @@ namespace DoAn_QLTV
             this.btnX.UseVisualStyleBackColor = true;
             this.btnX.Click += new System.EventHandler(this.btnX_Click);
             // 
-            // button1
+            // label2
             // 
-            this.button1.Location = new System.Drawing.Point(621, 25);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 32);
-            this.button1.TabIndex = 55;
-            this.button1.Text = "Report";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(13, 146);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(115, 16);
+            this.label2.TabIndex = 60;
+            this.label2.Text = "Tổng số tài liệu là:";
+            // 
+            // tongso
+            // 
+            this.tongso.AutoSize = true;
+            this.tongso.ForeColor = System.Drawing.Color.Red;
+            this.tongso.Location = new System.Drawing.Point(135, 146);
+            this.tongso.Name = "tongso";
+            this.tongso.Size = new System.Drawing.Size(15, 16);
+            this.tongso.TabIndex = 59;
+            this.tongso.Text = "0";
             // 
             // FormTKeDG
             // 
@@ -147,6 +168,8 @@ namespace DoAn_QLTV
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(799, 466);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.tongso);
             this.Controls.Add(this.btnX);
             this.Controls.Add(this.dgvTKeDG);
             this.Controls.Add(this.groupBox1);
@@ -174,5 +197,7 @@ namespace DoAn_QLTV
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnX;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label tongso;
     }
 }

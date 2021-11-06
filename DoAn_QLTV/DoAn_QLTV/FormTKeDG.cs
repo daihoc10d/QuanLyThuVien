@@ -22,6 +22,7 @@ namespace DoAn_QLTV
         {
             loaddata();
             tuychon.Text = "Tất cả độc giả";
+            tongso.Text = dgvTKeDG.Rows.Count.ToString();
         }
         private void loaddata()
         {
@@ -65,6 +66,8 @@ namespace DoAn_QLTV
             if (tuychon.Text == "Tất cả độc giả")
                 loaddata();
             else loaddata2();
+            tongso.Text = dgvTKeDG.Rows.Count.ToString();
+
         }
 
         //private void btnXuatExcel_Click(object sender, EventArgs e)
@@ -95,8 +98,7 @@ namespace DoAn_QLTV
             {
                 Report_Docgiatrehan form1 = new Report_Docgiatrehan();
                 form1.Show();
-            }    
-
+            }
         }
     }
 }

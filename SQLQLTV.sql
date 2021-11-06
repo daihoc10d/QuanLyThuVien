@@ -70,7 +70,7 @@ create table TaiLieu
 	MaNXB varchar(10) NOT NULL FOREIGN KEY REFERENCES dbo.NhaXuatBan(MaNXB),
 )
 go
-select MaPM,TenTaiLieu,NgayMuon,NgayTra,TinhTrang from CTPhieuMuon,TaiLieu where CTPhieuMuon.MaTaiLieu=TaiLieu.MaTaiLieu
+--select MaPM,TenTaiLieu,NgayMuon,NgayTra,TinhTrang from CTPhieuMuon,TaiLieu where CTPhieuMuon.MaTaiLieu=TaiLieu.MaTaiLieu
 create table CTPhieuMuon
 (
 	MaPM varchar(10) NOT NULL FOREIGN KEY REFERENCES dbo.PhieuMuon(MaPM),
@@ -90,30 +90,30 @@ create table Account
 
 	--MaDG varchar(10) NOT NULL FOREIGN KEY REFERENCES dbo.DocGia(MaDG),
 )
-go
-drop table ChucVu
-drop table Account
-drop table TheLoai
-drop table TaiLieu
-drop table DocGia
-drop table PhieuMuon
-drop table CTPhieuMuon
-drop table TacGia
-drop table NhaXuatBan
-drop table NhanVien
+--go
+--drop table ChucVu
+--drop table Account
+--drop table TheLoai
+--drop table TaiLieu
+--drop table DocGia
+--drop table PhieuMuon
+--drop table CTPhieuMuon
+--drop table TacGia
+--drop table NhaXuatBan
+--drop table NhanVien
 
-select TenTG,TenTaiLieu
-from TaiLieu A, TacGia B
-where A.MaTG = B.MaTG
+--select TenTG,TenTaiLieu
+--from TaiLieu A, TacGia B
+--where A.MaTG = B.MaTG
 
 
-select * from TaiLieu where TenTaiLieu like '%P%'
---form tai lieu
-select MaTaiLieu,TenTaiLieu,NamXB,TenTG,TenTheLoai,TenNXB from TaiLieu,TacGia,TheLoai,NhaXuatBan where TaiLieu.MaTG=TacGia.MaTG and TaiLieu.MaTheLoai=Theloai.MaTheLoai and TaiLieu.MaNXB=NhaXuatBan.MaNXB;
---form nhan vien
-select MaNV,TenNV,NgaySinh,GioiTinh,DiaChi,SDT,TenCV from NhanVien,Chucvu where Nhanvien.MaCV=Chucvu.MaCV
----form phieu muon
-select MaPM,TenDG,TenNV from PhieuMuon,DocGia,NhanVien where PhieuMuon.MaDG=DocGia.MaDG and PhieuMuon.MaNV=NhanVien.MaNV
+--select * from TaiLieu where TenTaiLieu like '%P%'
+----form tai lieu
+--select MaTaiLieu,TenTaiLieu,NamXB,TenTG,TenTheLoai,TenNXB from TaiLieu,TacGia,TheLoai,NhaXuatBan where TaiLieu.MaTG=TacGia.MaTG and TaiLieu.MaTheLoai=Theloai.MaTheLoai and TaiLieu.MaNXB=NhaXuatBan.MaNXB;
+----form nhan vien
+--select MaNV,TenNV,NgaySinh,GioiTinh,DiaChi,SDT,TenCV from NhanVien,Chucvu where Nhanvien.MaCV=Chucvu.MaCV
+-----form phieu muon
+--select MaPM,TenDG,TenNV from PhieuMuon,DocGia,NhanVien where PhieuMuon.MaDG=DocGia.MaDG and PhieuMuon.MaNV=NhanVien.MaNV
 
 
 ---MaTheLoai, TenTheLoai
@@ -196,6 +196,6 @@ insert into CTPhieuMuon values('PM3','TL5','08/26/2021','09/04/2021',N'TỐT')
 insert into CTPhieuMuon values('PM4','TL1','09/02/2021','09/10/2021',N'MỚI')
 insert into CTPhieuMuon values('PM5','TL2','02/15/2021','04/04/2021',N'TỐT')
 
-select NhanVien.MaCV from Chucvu, Account, NhanVien where TenAccount='phunghoc'and Account.MaNV = NhanVien.MaNV and Chucvu.MaCV = Nhanvien.MaCV
+--select NhanVien.MaCV from Chucvu, Account, NhanVien where TenAccount='phunghoc'and Account.MaNV = NhanVien.MaNV and Chucvu.MaCV = Nhanvien.MaCV
 
 =========================================

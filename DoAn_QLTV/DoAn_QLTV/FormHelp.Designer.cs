@@ -53,9 +53,9 @@ namespace DoAn_QLTV
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(651, 23);
+            this.label1.Size = new System.Drawing.Size(545, 23);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Đồ án phần mềm quản lý thư viện môn Lập trình trên môi trường Windows:";
+            this.label1.Text = "Đồ án phần mềm quản lý thư viện môn Công Nghệ Phần Mềm:";
             // 
             // label2
             // 
@@ -123,9 +123,9 @@ namespace DoAn_QLTV
             this.label8.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(554, 94);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(115, 19);
+            this.label8.Size = new System.Drawing.Size(143, 19);
             this.label8.TabIndex = 7;
-            this.label8.Text = "Bùi Mạnh Toàn";
+            this.label8.Text = "Dương Thành Phết";
             // 
             // label9
             // 

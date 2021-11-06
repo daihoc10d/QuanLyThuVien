@@ -20,7 +20,6 @@ namespace DoAn_QLTV
         private void loaddata()
         {
             DataTable dt = t.docdulieu("select * from DocGia");
-            l.Text = dt.Rows.Count.ToString();
 
             if (dt != null)
             {
@@ -44,17 +43,20 @@ namespace DoAn_QLTV
         private void FormTKDG_Load(object sender, EventArgs e)
         {
             loaddata();
+            ramadg.Checked = true;
+            l.Text = dgvTKDG.Rows.Count.ToString();
         }
 
         private void btnTim_Click(object sender, EventArgs e)
         {
             DataTable dt5 = t.docdulieu("select * from DocGia where MaDG like N'%" + txttimkiem.Text + "%'");
             DataTable dt6 = t.docdulieu("select * from DocGia where TenDG like N'%" + txttimkiem.Text + "%'");
-            if (ramasach.Checked == true)
+            if (ramadg.Checked == true)
             {
                 dgvTKDG.DataSource = dt5;
             }
             else dgvTKDG.DataSource = dt6;
+            l.Text = dgvTKDG.Rows.Count.ToString();
         }
 
         private void btnThoat_Click(object sender, EventArgs e)

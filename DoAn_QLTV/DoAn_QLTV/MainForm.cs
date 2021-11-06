@@ -100,7 +100,7 @@ namespace DoAn_QLTV
             }
             else
             {
-                MessageBox.Show("Bạn không có quyền tạo mới.Vui lòng liên hệ Admin !");
+                MessageBox.Show("Bạn không có quyền thao tác chức năng này. Vui lòng liên hệ Admin !","Thông báo");
             }
 
             hideSubMenu();

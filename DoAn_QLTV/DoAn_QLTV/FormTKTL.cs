@@ -40,6 +40,8 @@ namespace DoAn_QLTV
         private void FormTKTL_Load(object sender, EventArgs e)
         {
             loaddata();
+            ramasach.Checked = true;
+            tongso.Text = dgvTKTL.Rows.Count.ToString();
         }
 
         private void btnTim_Click(object sender, EventArgs e)
@@ -51,6 +53,7 @@ namespace DoAn_QLTV
                 dgvTKTL.DataSource = dt5;
             }
             else dgvTKTL.DataSource = dt6;
+            tongso.Text = dgvTKTL.Rows.Count.ToString();
         }
 
         private void btnThoat_Click(object sender, EventArgs e)

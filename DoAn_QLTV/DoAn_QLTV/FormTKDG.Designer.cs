@@ -35,9 +35,9 @@ namespace DoAn_QLTV
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnTim = new System.Windows.Forms.Button();
-            this.ramasach = new System.Windows.Forms.RadioButton();
+            this.ramadg = new System.Windows.Forms.RadioButton();
             this.txttimkiem = new System.Windows.Forms.TextBox();
-            this.ratensach = new System.Windows.Forms.RadioButton();
+            this.ratendg = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvTKDG = new System.Windows.Forms.DataGridView();
             this.btnX = new System.Windows.Forms.Button();
@@ -60,17 +60,17 @@ namespace DoAn_QLTV
             this.l.ForeColor = System.Drawing.Color.Red;
             this.l.Location = new System.Drawing.Point(179, 175);
             this.l.Name = "l";
-            this.l.Size = new System.Drawing.Size(46, 16);
+            this.l.Size = new System.Drawing.Size(15, 16);
             this.l.TabIndex = 43;
-            this.l.Text = "tongso";
+            this.l.Text = "0";
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btnThoat);
             this.groupBox1.Controls.Add(this.btnTim);
-            this.groupBox1.Controls.Add(this.ramasach);
+            this.groupBox1.Controls.Add(this.ramadg);
             this.groupBox1.Controls.Add(this.txttimkiem);
-            this.groupBox1.Controls.Add(this.ratensach);
+            this.groupBox1.Controls.Add(this.ratendg);
             this.groupBox1.Location = new System.Drawing.Point(22, 50);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
@@ -104,18 +104,18 @@ namespace DoAn_QLTV
             this.btnTim.UseVisualStyleBackColor = true;
             this.btnTim.Click += new System.EventHandler(this.btnTim_Click);
             // 
-            // ramasach
+            // ramadg
             // 
-            this.ramasach.AutoSize = true;
-            this.ramasach.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.ramasach.Location = new System.Drawing.Point(48, 33);
-            this.ramasach.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ramasach.Name = "ramasach";
-            this.ramasach.Size = new System.Drawing.Size(122, 28);
-            this.ramasach.TabIndex = 33;
-            this.ramasach.TabStop = true;
-            this.ramasach.Text = "Mã độc giả";
-            this.ramasach.UseVisualStyleBackColor = true;
+            this.ramadg.AutoSize = true;
+            this.ramadg.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.ramadg.Location = new System.Drawing.Point(48, 33);
+            this.ramadg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ramadg.Name = "ramadg";
+            this.ramadg.Size = new System.Drawing.Size(122, 28);
+            this.ramadg.TabIndex = 33;
+            this.ramadg.TabStop = true;
+            this.ramadg.Text = "Mã độc giả";
+            this.ramadg.UseVisualStyleBackColor = true;
             // 
             // txttimkiem
             // 
@@ -124,19 +124,20 @@ namespace DoAn_QLTV
             this.txttimkiem.Name = "txttimkiem";
             this.txttimkiem.Size = new System.Drawing.Size(341, 23);
             this.txttimkiem.TabIndex = 37;
+            this.txttimkiem.TextChanged += new System.EventHandler(this.btnTim_Click);
             // 
-            // ratensach
+            // ratendg
             // 
-            this.ratensach.AutoSize = true;
-            this.ratensach.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.ratensach.Location = new System.Drawing.Point(48, 73);
-            this.ratensach.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ratensach.Name = "ratensach";
-            this.ratensach.Size = new System.Drawing.Size(130, 28);
-            this.ratensach.TabIndex = 35;
-            this.ratensach.TabStop = true;
-            this.ratensach.Text = "Tên độc giả";
-            this.ratensach.UseVisualStyleBackColor = true;
+            this.ratendg.AutoSize = true;
+            this.ratendg.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.ratendg.Location = new System.Drawing.Point(48, 73);
+            this.ratendg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ratendg.Name = "ratendg";
+            this.ratendg.Size = new System.Drawing.Size(130, 28);
+            this.ratendg.TabIndex = 35;
+            this.ratendg.TabStop = true;
+            this.ratendg.Text = "Tên độc giả";
+            this.ratendg.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -208,9 +209,9 @@ namespace DoAn_QLTV
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.Button btnTim;
-        private System.Windows.Forms.RadioButton ramasach;
+        private System.Windows.Forms.RadioButton ramadg;
         private System.Windows.Forms.TextBox txttimkiem;
-        private System.Windows.Forms.RadioButton ratensach;
+        private System.Windows.Forms.RadioButton ratendg;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgvTKDG;
         private System.Windows.Forms.Button btnX;

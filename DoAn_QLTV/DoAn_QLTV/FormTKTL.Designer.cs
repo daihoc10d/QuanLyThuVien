@@ -39,6 +39,8 @@ namespace DoAn_QLTV
             this.label1 = new System.Windows.Forms.Label();
             this.dgvTKTL = new System.Windows.Forms.DataGridView();
             this.btnX = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tongso = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTKTL)).BeginInit();
             this.SuspendLayout();
@@ -103,6 +105,7 @@ namespace DoAn_QLTV
             this.txttimkiem.Name = "txttimkiem";
             this.txttimkiem.Size = new System.Drawing.Size(341, 23);
             this.txttimkiem.TabIndex = 37;
+            this.txttimkiem.TextChanged += new System.EventHandler(this.btnTim_Click);
             // 
             // ratensach
             // 
@@ -135,10 +138,10 @@ namespace DoAn_QLTV
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvTKTL.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTKTL.Location = new System.Drawing.Point(12, 168);
+            this.dgvTKTL.Location = new System.Drawing.Point(12, 184);
             this.dgvTKTL.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvTKTL.Name = "dgvTKTL";
-            this.dgvTKTL.Size = new System.Drawing.Size(775, 285);
+            this.dgvTKTL.Size = new System.Drawing.Size(775, 269);
             this.dgvTKTL.TabIndex = 37;
             // 
             // btnX
@@ -154,12 +157,33 @@ namespace DoAn_QLTV
             this.btnX.UseVisualStyleBackColor = true;
             this.btnX.Click += new System.EventHandler(this.btnX_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 164);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(115, 16);
+            this.label2.TabIndex = 57;
+            this.label2.Text = "Tổng số tài liệu là:";
+            // 
+            // tongso
+            // 
+            this.tongso.AutoSize = true;
+            this.tongso.ForeColor = System.Drawing.Color.Red;
+            this.tongso.Location = new System.Drawing.Point(134, 164);
+            this.tongso.Name = "tongso";
+            this.tongso.Size = new System.Drawing.Size(15, 16);
+            this.tongso.TabIndex = 56;
+            this.tongso.Text = "0";
+            // 
             // FormTKTL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(799, 466);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.tongso);
             this.Controls.Add(this.btnX);
             this.Controls.Add(this.dgvTKTL);
             this.Controls.Add(this.groupBox1);
@@ -189,5 +213,7 @@ namespace DoAn_QLTV
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgvTKTL;
         private System.Windows.Forms.Button btnX;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label tongso;
     }
 }

@@ -78,8 +78,8 @@ namespace DoAn_QLTV
         {
             DataTable dt = t.docdulieu("select * from DocGia");
             DataTable dt1 = t.docdulieu("select * from NhanVien");
-            DataTable dt2 = t.docdulieu("select * from PhieuMuon");
-            DataTable dt3 = t.docdulieu("select * from TaiLieu");
+            //DataTable dt2 = t.docdulieu("select * from PhieuMuon");
+            //DataTable dt3 = t.docdulieu("select * from TaiLieu");
 
 
 
@@ -91,20 +91,35 @@ namespace DoAn_QLTV
             comnhanvien.DisplayMember = "TenNV";
             comnhanvien.ValueMember = "MaNV";
 
+            //commaphieumuon.DataSource = dt2;
+            //commaphieumuon.DisplayMember = "MaPM";
+            //commaphieumuon.ValueMember = "MaPM";
+
+            //commasach.DataSource = dt3;
+            //commasach.DisplayMember = "MaTaiLieu";
+            //commasach.ValueMember = "MaTaiLieu";
+        }
+        private void loadcombo2()
+        {
+            DataTable dt2 = t.docdulieu("select * from PhieuMuon");
+            DataTable dt3 = t.docdulieu("select * from TaiLieu");
+
             commaphieumuon.DataSource = dt2;
             commaphieumuon.DisplayMember = "MaPM";
             commaphieumuon.ValueMember = "MaPM";
 
             commasach.DataSource = dt3;
-            commasach.DisplayMember = "MaTaiLieu";
+            commasach.DisplayMember = "TenTaiLieu";
             commasach.ValueMember = "MaTaiLieu";
         }
         private void loaddata2()
         {
             DataTable dt = t.docdulieu("select MaPM,TenTaiLieu,NgayMuon,NgayTra,TinhTrang from CTPhieuMuon,TaiLieu where CTPhieuMuon.MaTaiLieu=TaiLieu.MaTaiLieu");
             l.Text = dt.Rows.Count.ToString();
-            l.Text = dt.Rows.Count.ToString();
-            loadcombo();
+            //l.Text = dt.Rows.Count.ToString();
+            //loadcombo();
+            loadcombo2();
+
             if (dt != null)
             {
                 dgvCTPM.DataSource = dt;
@@ -135,7 +150,6 @@ namespace DoAn_QLTV
             commaphieumuon.Text = "";
             commasach.Text = "";
             ghichu.Text = "";
-
         }
         private int CheckID(string idNew)
         {
@@ -284,7 +298,7 @@ namespace DoAn_QLTV
         private void dgvCTPM_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             commaphieumuon.Text = dgvCTPM.CurrentRow.Cells[0].Value.ToString();
-            commasach.Text = dgvCTPM.CurrentRow.Cells[1].Value.ToString();
+            commasach.SelectedIndex = commasach.FindString(dgvCTPM.CurrentRow.Cells[1].FormattedValue.ToString());
             ngaymuon.Text = dgvCTPM.CurrentRow.Cells[2].Value.ToString();
             ngaytra.Text = dgvCTPM.CurrentRow.Cells[3].Value.ToString();
             ghichu.Text = dgvCTPM.CurrentRow.Cells[4].Value.ToString();
@@ -310,13 +324,13 @@ namespace DoAn_QLTV
         {
             if (dgvCTPM.Rows.Count > 0 && commaphieumuon.Text != "")
             {
-                DialogResult chon = MessageBox.Show("Bạn có muốn trả sách có mã " + commasach.Text + "", "thông báo", MessageBoxButtons.YesNo);
+                DialogResult chon = MessageBox.Show("Bạn có muốn trả sách có tên " + commasach.Text + "", "thông báo", MessageBoxButtons.YesNo);
                 if (chon == DialogResult.Yes)
                 {
                     try
                     {
-                        t.thucthidulieu("delete from CTPhieuMuon where MaTaiLieu='" + commasach.Text + "'");
-                        MessageBox.Show("Đã trả sách có mã " + commasach.Text + "", "Thông báo");
+                        t.thucthidulieu("delete from CTPhieuMuon where MaTaiLieu='" + commasach.SelectedValue.ToString() + "'");
+                        MessageBox.Show("Đã trả sách có mã " + commasach.SelectedValue.ToString() + "", "Thông báo");
                         loaddata2();
                     }
                     catch (Exception)
@@ -343,7 +357,7 @@ namespace DoAn_QLTV
             time = date2.Subtract(date1);
             day = time.Days;
 
-            DataTable dt = t.docdulieu("select * from CTPhieuMuon where MaTaiLieu= N'" + commasach.Text + "'");
+            DataTable dt = t.docdulieu("select * from CTPhieuMuon where MaTaiLieu= N'" + commasach.SelectedValue.ToString() + "'");
 
             if (dt.Rows.Count == 1)
             {
@@ -399,7 +413,7 @@ namespace DoAn_QLTV
                     ngaytra.Focus();
 
                 }
-                else if (t.thucthidulieu("update CTPhieuMuon set NgayTra=N'" + ngayhhh + "'where MaTaiLieu=N'" + commasach.Text + "'") == true)
+                else if (t.thucthidulieu("update CTPhieuMuon set NgayTra=N'" + ngayhhh + "'where MaTaiLieu=N'" + commasach.SelectedValue.ToString() + "'") == true)
                 {
                     MessageBox.Show("Sửa ngày hẹn trả thành công");
                     loaddata2();
