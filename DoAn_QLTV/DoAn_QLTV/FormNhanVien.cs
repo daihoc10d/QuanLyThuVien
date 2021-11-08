@@ -33,12 +33,27 @@ namespace DoAn_QLTV
         private void FormNhanVien_Load(object sender, EventArgs e)
         {
             loaddata();
-            loadcombox();
+            if (MaCV == "AD")
+            {
+                loadcombox();
+            }
+            else if (MaCV == "QL")
+            {
+                loadcombox1();
+            }
 
         }
         private void loadcombox()
         {
             DataTable dt = t.docdulieu("select * from ChucVu");
+
+            cbChucVu.DataSource = dt;
+            cbChucVu.DisplayMember = "TenCV";
+            cbChucVu.ValueMember = "MaCV";
+        }
+        private void loadcombox1()
+        {
+            DataTable dt = t.docdulieu("select * from ChucVu except select * from ChucVu where MaCV = 'AD'");
 
             cbChucVu.DataSource = dt;
             cbChucVu.DisplayMember = "TenCV";
@@ -165,38 +180,45 @@ namespace DoAn_QLTV
 
         private void btnbtnLuu_Click(object sender, EventArgs e)
         {
-            string ngayhh = ngaysinh.Value.ToString("MM/dd/yyyy");
-            if (dgvNhanVien.Enabled == true)
+            try
             {
-                if (txtmanhanvien.Text == "" || txttennhanvien.Text == "" || txtdiachi.Text == "" || txtdienthoai.Text == ""|| cbChucVu.Text == "")
+                string ngayhh = ngaysinh.Value.ToString("MM/dd/yyyy");
+                if (dgvNhanVien.Enabled == true)
                 {
-                    MessageBox.Show("Vui lòng không bỏ trống thông tin !!");
+                    if (txtmanhanvien.Text == "" || txttennhanvien.Text == "" || txtdiachi.Text == "" || txtdienthoai.Text == "" || cbChucVu.Text == "")
+                    {
+                        MessageBox.Show("Vui lòng không bỏ trống thông tin !!");
 
+                    }
+                    else if (t.thucthidulieu("UPDATE  NhanVien SET TenNV=N'" + txttennhanvien.Text + "', NgaySinh='" + ngayhh + "',GioiTinh=N'" + comgioitinh.Text + "', DiaChi=N'" + txtdiachi.Text + "', SDT=N'" + txtdienthoai.Text + "', MaCV='" + cbChucVu.SelectedValue.ToString() + "' WHERE MaNV=N'" + txtmanhanvien.Text + "'") == true)
+                    {
+                        MessageBox.Show("Cập nhật dữ liệu thành công");
+                        btnSua.Text = "Sửa";
+                        loaddata();
+                    }
+                    else MessageBox.Show("Không thể cập nhật dữ liệu");
                 }
-                else if (t.thucthidulieu("UPDATE  NhanVien SET TenNV=N'" + txttennhanvien.Text + "', NgaySinh='" + ngayhh + "',GioiTinh=N'" + comgioitinh.Text + "', DiaChi=N'" + txtdiachi.Text + "', SDT=N'" + txtdienthoai.Text + "',MaCV=N'"+cbChucVu.SelectedValue.ToString()+"', WHERE MaNV=N'" + txtmanhanvien.Text + "'") == true)
+                else if (txtmanhanvien.Text == "" || txttennhanvien.Text == "" || txtdiachi.Text == "" || txtdienthoai.Text == "" || cbChucVu.Text == "")
+                {
+                    MessageBox.Show("Vui lòng điền đầy đủ thông tin");
+                }
+                else if (t.thucthidulieu("INSERT INTO NhanVien VALUES ('" + txtmanhanvien.Text + "',N'" + txttennhanvien.Text + "','" + ngayhh + "',N'" + comgioitinh.Text + "',N'" + txtdiachi.Text + "',N'" + txtdienthoai.Text + "',N'" + cbChucVu.SelectedValue.ToString() + "')") == true)
                 {
 
-                    MessageBox.Show("Cập nhật dữ liệu thành công");
-                    btnSua.Text = "Sửa";
+                    MessageBox.Show("Thêm thành công");
                     loaddata();
                 }
-                else MessageBox.Show("Không thể cập nhật dữ liệu");
+                else
+                {
+                    MessageBox.Show("Lỗi trùng khhóa");
+                    txtmanhanvien.Focus();
+                }
             }
-            else if (txtmanhanvien.Text == "" || txttennhanvien.Text == "" || txtdiachi.Text == "" || txtdienthoai.Text == "" || cbChucVu.Text == "")
+            catch (Exception)
             {
-                MessageBox.Show("Vui lòng điền đầy đủ thông tin");
+                MessageBox.Show("Lỗi","Thông báo");
             }
-            else if (t.thucthidulieu("INSERT INTO NhanVien VALUES ('" + txtmanhanvien.Text + "',N'" + txttennhanvien.Text + "','" + ngayhh + "',N'" + comgioitinh.Text + "',N'" + txtdiachi.Text + "',N'" + txtdienthoai.Text + "',N'" + cbChucVu.SelectedValue.ToString() + "')") == true)
-            {
-
-                MessageBox.Show("Thêm thành công");
-                loaddata();
-            }
-            else
-            {
-                MessageBox.Show("Lỗi trùng khhóa");
-                txtmanhanvien.Focus();
-            }
+            
         }
 
         private void btnXoa_Click(object sender, EventArgs e)

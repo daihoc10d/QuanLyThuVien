@@ -16,7 +16,7 @@ namespace DoAn_QLTV
         {
             InitializeComponent();
         }
-        Themsuaxoa t = new Themsuaxoa();
+        Themsuaxoa t = new Themsuaxoa(); //gọi class thêm xóa sửa
         private void loaddata()
         {
             DataTable dt = t.docdulieu("select * from TaiLieu");

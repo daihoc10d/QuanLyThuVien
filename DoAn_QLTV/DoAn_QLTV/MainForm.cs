@@ -13,15 +13,15 @@ namespace DoAn_QLTV
     public partial class MainForm : Form
     {
 
-        string TenAccount = "", MKAccount = "", MaNV = "", MaCV = "";
+        string TenAccount = "", MKAccount = "", MaNV = "", MaCV = ""; // lấy dữ liệu từ form đăng nhập
         //public MainForm()
         //{
         //    InitializeComponent();
         //    customizeDesign();
         //}
 
-        Themsuaxoa t = new Themsuaxoa();
-        public MainForm(string name, string TenAccount, string MKAccount, string MaNV,string MaCV)
+        Themsuaxoa t = new Themsuaxoa(); // gọi class thêm sửa xóa
+        public MainForm(string name, string TenAccount, string MKAccount, string MaNV,string MaCV) //tạo cấu hình cho giao diện chính
         {
             InitializeComponent();
             customizeDesign();
@@ -35,13 +35,13 @@ namespace DoAn_QLTV
             this.MaCV = MaCV;
 
         }
-        private void MainForm_Load(object sender, EventArgs e)
+        private void MainForm_Load(object sender, EventArgs e) //một vài thứ khác như đồng hồ xem giờ, lịch
         {
             timer1.Start();
             labTime.Text = DateTime.UtcNow.ToString();
         }
 
-        private void customizeDesign()
+        private void customizeDesign() //hàm ẩn các submenu panel
         {
             panelSubMenuHeThong.Visible = false;
             panelSubMenuDM.Visible = false;
@@ -50,7 +50,7 @@ namespace DoAn_QLTV
             panelSubMenuTKe.Visible = false;
         }
 
-        private void hideSubMenu()
+        private void hideSubMenu() //kiểm tra điều chỉnh submenu
         {
             if (panelSubMenuHeThong.Visible == true)
             {
@@ -74,7 +74,7 @@ namespace DoAn_QLTV
             }
         }
 
-        private void showSubMenu(Panel subMenu)
+        private void showSubMenu(Panel subMenu) //hiện submenu
         {
             if (subMenu.Visible == false)
             {
@@ -88,12 +88,12 @@ namespace DoAn_QLTV
         }
 
         #region Hệ thống
-        private void btnHeThong_Click(object sender, EventArgs e)
+        private void btnHeThong_Click(object sender, EventArgs e) //mục hệ thống
         {
             showSubMenu(panelSubMenuHeThong);
         }
 
-        private void btnTaoTK_Click(object sender, EventArgs e)
+        private void btnTaoTK_Click(object sender, EventArgs e) //gọi form thêm tài khoản
         {
             //DataTable dt = t.docdulieu("select NhanVien.MaCV from Chucvu, Account, NhanVien where TenAccount=N'" + labName.Text + "'and Account.MaNV = NhanVien.MaNV and Chucvu.MaCV = Nhanvien.MaCV");
             if (MaCV == "AD")
@@ -109,13 +109,13 @@ namespace DoAn_QLTV
         }
 
 
-        private void btnDoiMK_Click(object sender, EventArgs e)
+        private void btnDoiMK_Click(object sender, EventArgs e) //gọi form đổi mk
         {
             openChildForm(new FormDoiMK(labName.Text));
             hideSubMenu();
         }
 
-        private void btnDangXuat_Click(object sender, EventArgs e)
+        private void btnDangXuat_Click(object sender, EventArgs e) //gọi form đăng xuất
         {
             hideSubMenu();
             this.Hide();
@@ -123,7 +123,7 @@ namespace DoAn_QLTV
             dn.Show();
         }
 
-        private void btnThoat_Click(object sender, EventArgs e)
+        private void btnThoat_Click(object sender, EventArgs e) //thoát ứng dụng
         {
 
             hideSubMenu();
@@ -132,18 +132,18 @@ namespace DoAn_QLTV
         #endregion
 
         #region Danh mục
-        private void btnDanhMuc_Click(object sender, EventArgs e)
+        private void btnDanhMuc_Click(object sender, EventArgs e) //gọi form 
         {
             showSubMenu(panelSubMenuDM);
         }
 
-        private void btnDocGia_Click(object sender, EventArgs e)
+        private void btnDocGia_Click(object sender, EventArgs e) //gọi form 
         {
             openChildForm(new FormDocGia());
             hideSubMenu();
         }
 
-        private void btnNhanVien_Click(object sender, EventArgs e)
+        private void btnNhanVien_Click(object sender, EventArgs e) //gọi form 
         {
             DataTable dt = t.docdulieu("select * from Account where TenAccount=N'" + labName.Text + "' ");
 
@@ -151,25 +151,25 @@ namespace DoAn_QLTV
             hideSubMenu();
         }
 
-        private void btnTaiLieu_Click(object sender, EventArgs e)
+        private void btnTaiLieu_Click(object sender, EventArgs e) //gọi form 
         {
             openChildForm(new FormTaiLieu());
             hideSubMenu();
         }
 
-        private void btnTheLoai_Click(object sender, EventArgs e)
+        private void btnTheLoai_Click(object sender, EventArgs e) //gọi form 
         {
             openChildForm(new FormTheLoai());
             hideSubMenu();
         }
 
-        private void btnTacGia_Click(object sender, EventArgs e)
+        private void btnTacGia_Click(object sender, EventArgs e) //gọi form 
         {
             openChildForm(new FormTacGia());
             hideSubMenu();
         }
 
-        private void btnNXB_Click(object sender, EventArgs e)
+        private void btnNXB_Click(object sender, EventArgs e) //gọi form 
         {
             openChildForm(new FormNXB());
             hideSubMenu();
@@ -177,12 +177,12 @@ namespace DoAn_QLTV
         #endregion
 
         #region Mượn trả
-        private void btnMuonTra_Click(object sender, EventArgs e)
+        private void btnMuonTra_Click(object sender, EventArgs e) 
         {
             showSubMenu(panelSubMenuMT);
         }
 
-        private void btnMT_Click(object sender, EventArgs e)
+        private void btnMT_Click(object sender, EventArgs e) //gọi form 
         {
             openChildForm(new FormMuonTra());
             hideSubMenu();
@@ -195,13 +195,13 @@ namespace DoAn_QLTV
             showSubMenu(panelSubMenuTK);
         }
 
-        private void btnTKTL_Click(object sender, EventArgs e)
+        private void btnTKTL_Click(object sender, EventArgs e) //gọi form 
         {
             openChildForm(new FormTKTL());
             hideSubMenu();
         }
 
-        private void btnTKDG_Click(object sender, EventArgs e)
+        private void btnTKDG_Click(object sender, EventArgs e) //gọi form 
         {
             openChildForm(new FormTKDG());
             hideSubMenu();
@@ -259,13 +259,13 @@ namespace DoAn_QLTV
 
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e) // kích hoạt timer
         {
-            labTime.Text = DateTime.UtcNow.ToString();
+            labTime.Text = DateTime.Now.ToString();
             timer1.Start();
         }
 
-        private void btnTroGiup_Click(object sender, EventArgs e)
+        private void btnTroGiup_Click(object sender, EventArgs e) //gọi form 
         {
             //
             openChildForm(new FormHelp());
@@ -274,7 +274,7 @@ namespace DoAn_QLTV
 
         private Form activeForm = null;
 
-        private void openChildForm(Form childForm)
+        private void openChildForm(Form childForm) //điều chỉnh gọi form con cho phù hợp panel form cha
         {
             if (activeForm != null)
             {

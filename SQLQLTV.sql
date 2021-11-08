@@ -199,3 +199,4 @@ insert into CTPhieuMuon values('PM5','TL2','02/15/2021','04/04/2021',N'TỐT')
 --select NhanVien.MaCV from Chucvu, Account, NhanVien where TenAccount='phunghoc'and Account.MaNV = NhanVien.MaNV and Chucvu.MaCV = Nhanvien.MaCV
 
 =========================================
+select * from ChucVu except select * from ChucVu where MaCV = 'AD'
