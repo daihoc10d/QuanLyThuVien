@@ -141,6 +141,7 @@ namespace DoAn_QLTV
             this.dgvTKTL.Location = new System.Drawing.Point(12, 184);
             this.dgvTKTL.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvTKTL.Name = "dgvTKTL";
+            this.dgvTKTL.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvTKTL.Size = new System.Drawing.Size(775, 269);
             this.dgvTKTL.TabIndex = 37;
             // 

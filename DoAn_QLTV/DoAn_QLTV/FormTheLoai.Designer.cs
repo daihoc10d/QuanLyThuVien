@@ -160,6 +160,7 @@ namespace DoAn_QLTV
             this.dgvTheLoai.Location = new System.Drawing.Point(334, 67);
             this.dgvTheLoai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvTheLoai.Name = "dgvTheLoai";
+            this.dgvTheLoai.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvTheLoai.Size = new System.Drawing.Size(314, 355);
             this.dgvTheLoai.TabIndex = 16;
             this.dgvTheLoai.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvTheLoai_CellMouseClick);

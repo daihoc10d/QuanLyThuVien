@@ -162,6 +162,7 @@ namespace DoAn_QLTV
             this.dgvTacGia.Location = new System.Drawing.Point(399, 48);
             this.dgvTacGia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvTacGia.Name = "dgvTacGia";
+            this.dgvTacGia.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvTacGia.Size = new System.Drawing.Size(331, 382);
             this.dgvTacGia.TabIndex = 24;
             this.dgvTacGia.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvTacGia_CellMouseClick);

@@ -211,6 +211,7 @@ namespace DoAn_QLTV
             this.dgvNXB.Location = new System.Drawing.Point(347, 60);
             this.dgvNXB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvNXB.Name = "dgvNXB";
+            this.dgvNXB.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvNXB.Size = new System.Drawing.Size(438, 393);
             this.dgvNXB.TabIndex = 51;
             this.dgvNXB.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvNXB_CellMouseClick);

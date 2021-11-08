@@ -214,6 +214,7 @@ namespace DoAn_QLTV
             this.dgvPM.Location = new System.Drawing.Point(318, 45);
             this.dgvPM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvPM.Name = "dgvPM";
+            this.dgvPM.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvPM.Size = new System.Drawing.Size(451, 344);
             this.dgvPM.TabIndex = 26;
             this.dgvPM.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvPM_CellMouseClick);

@@ -31,6 +31,8 @@ namespace DoAn_QLTV
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormNhanVien));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cbChucVu = new System.Windows.Forms.ComboBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.btnLoad = new System.Windows.Forms.Button();
             this.l = new System.Windows.Forms.Label();
@@ -56,8 +58,6 @@ namespace DoAn_QLTV
             this.btnX = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.cbChucVu = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVien)).BeginInit();
             this.SuspendLayout();
@@ -92,6 +92,27 @@ namespace DoAn_QLTV
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cập nhật thông tin";
+            // 
+            // cbChucVu
+            // 
+            this.cbChucVu.FormattingEnabled = true;
+            this.cbChucVu.Items.AddRange(new object[] {
+            "Nam",
+            "Nữ"});
+            this.cbChucVu.Location = new System.Drawing.Point(127, 200);
+            this.cbChucVu.Name = "cbChucVu";
+            this.cbChucVu.Size = new System.Drawing.Size(174, 24);
+            this.cbChucVu.TabIndex = 51;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label10.Location = new System.Drawing.Point(6, 204);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(73, 20);
+            this.label10.TabIndex = 50;
+            this.label10.Text = "Chức vụ";
             // 
             // button1
             // 
@@ -337,27 +358,6 @@ namespace DoAn_QLTV
             this.label9.Size = new System.Drawing.Size(113, 16);
             this.label9.TabIndex = 48;
             this.label9.Text = "Tổng số nhân viên";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label10.Location = new System.Drawing.Point(6, 204);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(73, 20);
-            this.label10.TabIndex = 50;
-            this.label10.Text = "Chức vụ";
-            // 
-            // cbChucVu
-            // 
-            this.cbChucVu.FormattingEnabled = true;
-            this.cbChucVu.Items.AddRange(new object[] {
-            "Nam",
-            "Nữ"});
-            this.cbChucVu.Location = new System.Drawing.Point(127, 200);
-            this.cbChucVu.Name = "cbChucVu";
-            this.cbChucVu.Size = new System.Drawing.Size(174, 24);
-            this.cbChucVu.TabIndex = 51;
             // 
             // FormNhanVien
             // 

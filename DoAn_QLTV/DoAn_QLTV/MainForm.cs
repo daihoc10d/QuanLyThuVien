@@ -265,16 +265,7 @@ namespace DoAn_QLTV
             timer1.Start();
         }
 
-<<<<<<< HEAD
         private void btnTroGiup_Click(object sender, EventArgs e) //gọi form 
-=======
-        private void labTime_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnTroGiup_Click(object sender, EventArgs e)
->>>>>>> dd3a7a6a585bac3e92a02e434f0aad447c6352aa
         {
             //
             openChildForm(new FormHelp());

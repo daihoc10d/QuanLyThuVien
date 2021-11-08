@@ -21,5 +21,6 @@ namespace DoAn_QLTV
         {
             this.Close();
         }
+
     }
 }

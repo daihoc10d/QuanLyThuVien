@@ -35,6 +35,7 @@ namespace DoAn_QLTV
             this.dgvDocGia = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnLoad = new System.Windows.Forms.Button();
             this.comgioitinh = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -54,7 +55,6 @@ namespace DoAn_QLTV
             this.btnX = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDocGia)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -88,6 +88,7 @@ namespace DoAn_QLTV
             this.dgvDocGia.Location = new System.Drawing.Point(339, 49);
             this.dgvDocGia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvDocGia.Name = "dgvDocGia";
+            this.dgvDocGia.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvDocGia.Size = new System.Drawing.Size(448, 404);
             this.dgvDocGia.TabIndex = 30;
             this.dgvDocGia.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvDocGia_CellMouseClick);
@@ -130,6 +131,17 @@ namespace DoAn_QLTV
             this.groupBox1.TabIndex = 28;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cập nhật thông tin";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(120, 282);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(80, 35);
+            this.button1.TabIndex = 43;
+            this.button1.Text = "Report";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnLoad
             // 
@@ -325,17 +337,6 @@ namespace DoAn_QLTV
             this.label9.Size = new System.Drawing.Size(66, 16);
             this.label9.TabIndex = 35;
             this.label9.Text = "TongsoDG";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(120, 282);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(80, 35);
-            this.button1.TabIndex = 43;
-            this.button1.Text = "Report";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FormDocGia
             // 

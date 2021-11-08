@@ -63,9 +63,9 @@ namespace DoAn_QLTV
             this.label2.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(44, 61);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(188, 19);
+            this.label2.Size = new System.Drawing.Size(151, 19);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Tác giả:  Nhóm DTHQ.";
+            this.label2.Text = "Tác giả:  Nhóm 4.";
             // 
             // label3
             // 

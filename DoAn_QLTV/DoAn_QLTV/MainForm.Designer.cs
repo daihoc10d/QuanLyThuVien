@@ -686,7 +686,6 @@ namespace DoAn_QLTV
             this.labTime.Size = new System.Drawing.Size(54, 16);
             this.labTime.TabIndex = 5;
             this.labTime.Text = "labTime";
-            this.labTime.Click += new System.EventHandler(this.labTime_Click);
             // 
             // pictureBox8
             // 
