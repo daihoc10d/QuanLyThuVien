@@ -64,6 +64,7 @@ namespace DoAn_QLTV
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelBot = new System.Windows.Forms.Panel();
+            this.labTime = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.dgvNV = new System.Windows.Forms.DataGridView();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -79,7 +80,6 @@ namespace DoAn_QLTV
             this.label3 = new System.Windows.Forms.Label();
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.labTime = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelSideMenu.SuspendLayout();
             this.panelSubMenuTKe.SuspendLayout();
@@ -676,6 +676,18 @@ namespace DoAn_QLTV
             this.panelBot.Size = new System.Drawing.Size(815, 40);
             this.panelBot.TabIndex = 1;
             // 
+            // labTime
+            // 
+            this.labTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.labTime.AutoSize = true;
+            this.labTime.ForeColor = System.Drawing.Color.White;
+            this.labTime.Location = new System.Drawing.Point(625, 14);
+            this.labTime.Name = "labTime";
+            this.labTime.Size = new System.Drawing.Size(54, 16);
+            this.labTime.TabIndex = 5;
+            this.labTime.Text = "labTime";
+            this.labTime.Click += new System.EventHandler(this.labTime_Click);
+            // 
             // pictureBox8
             // 
             this.pictureBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -842,17 +854,6 @@ namespace DoAn_QLTV
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // labTime
-            // 
-            this.labTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.labTime.AutoSize = true;
-            this.labTime.ForeColor = System.Drawing.Color.White;
-            this.labTime.Location = new System.Drawing.Point(625, 14);
-            this.labTime.Name = "labTime";
-            this.labTime.Size = new System.Drawing.Size(54, 16);
-            this.labTime.TabIndex = 5;
-            this.labTime.Text = "labTime";
             // 
             // timer1
             // 
